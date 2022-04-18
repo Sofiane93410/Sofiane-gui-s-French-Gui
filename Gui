@@ -59,6 +59,11 @@ local vestenikesacoche = Instance.new("TextButton")
 local OutfitButton = Instance.new("TextButton")
 local NoShirtButton = Instance.new("TextButton")
 local NoPantButton = Instance.new("TextButton")
+local Collant = Instance.new("TextButton")
+local chignonblond = Instance.new("TextButton")
+local cheveuxblond = Instance.new("TextButton")
+local lunettesblanche = Instance.new("TextButton")
+local tenueecoliere = Instance.new("TextButton")
 
 --Properties:
 
@@ -571,6 +576,107 @@ NoPantButton.MouseButton1Down:connect(function()
 	local args = {
 		[1] = "wear",
 		[2] = 8522494824
+	}
+
+	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+
+end)
+
+chignonblond.Name = "chignon blond"
+chignonblond.Parent = OutfitCaTalog
+chignonblond.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+chignonblond.Position = UDim2.new(0.336434186, 0, 0.756267369, 0)
+chignonblond.Size = UDim2.new(0, 200, 0, 50)
+chignonblond.Font = Enum.Font.SourceSans
+chignonblond.Text = "Chignon blond"
+chignonblond.TextColor3 = Color3.fromRGB(0, 0, 0)
+chignonblond.TextSize = 14.000
+chignonblond.MouseButton1Down:connect(function()
+
+	local args = {
+		[1] = "wear",
+		[2] = 8996212761
+	}
+
+	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+
+end)
+
+cheveuxblond.Name = "cheveux blond"
+cheveuxblond.Parent = OutfitCaTalog
+cheveuxblond.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cheveuxblond.Position = UDim2.new(0, 0, 0.756267369, 0)
+cheveuxblond.Size = UDim2.new(0, 200, 0, 50)
+cheveuxblond.Font = Enum.Font.SourceSans
+cheveuxblond.Text = "Blonde"
+cheveuxblond.TextColor3 = Color3.fromRGB(0, 0, 0)
+cheveuxblond.TextSize = 14.000
+cheveuxblond.MouseButton1Down:connect(function()
+
+	local args = {
+		[1] = "wear",
+		[2] = 7284206648
+	}
+
+	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+
+end)
+
+lunettesblanche.Name = "lunettes blanche"
+lunettesblanche.Parent = OutfitCaTalog
+lunettesblanche.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lunettesblanche.Position = UDim2.new(0, 0, 0.863509715, 0)
+lunettesblanche.Size = UDim2.new(0, 200, 0, 50)
+lunettesblanche.Font = Enum.Font.SourceSans
+lunettesblanche.Text = "Lunettes Blanche"
+lunettesblanche.TextColor3 = Color3.fromRGB(0, 0, 0)
+lunettesblanche.TextSize = 14.000
+lunettesblanche.MouseButton1Down:connect(function()
+
+	local args = {
+		[1] = "wear",
+		[2] = 7246171208
+	}
+
+	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+
+end)
+
+
+tenueecoliere.Name = "tenue ecoliere"
+tenueecoliere.Parent = OutfitCaTalog
+tenueecoliere.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tenueecoliere.Position = UDim2.new(0.337984502, 0, 0.863509715, 0)
+tenueecoliere.Size = UDim2.new(0, 200, 0, 50)
+tenueecoliere.Font = Enum.Font.SourceSans
+tenueecoliere.Text = "Tenues école ( haut)"
+tenueecoliere.TextColor3 = Color3.fromRGB(0, 0, 0)
+tenueecoliere.TextSize = 14.000
+tenueecoliere.MouseButton1Down:connect(function()
+
+	local args = {
+		[1] = "wear",
+		[2] = 4707960410
+	}
+
+	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+
+end)
+
+Collant.Name = "Collant"
+Collant.Parent = OutfitCaTalog
+Collant.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Collant.Position = UDim2.new(0.662015498, 0, 0.863509715, 0)
+Collant.Size = UDim2.new(0, 200, 0, 50)
+Collant.Font = Enum.Font.SourceSans
+Collant.Text = "Collant"
+Collant.TextColor3 = Color3.fromRGB(0, 0, 0)
+Collant.TextSize = 14.000
+Collant.MouseButton1Down:connect(function()
+
+	local args = {
+		[1] = "wear",
+		[2] = 6256942218
 	}
 
 	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
