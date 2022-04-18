@@ -57,6 +57,8 @@ local bandanaheadband = Instance.new("TextButton")
 local dorplatine = Instance.new("TextButton")
 local vestenikesacoche = Instance.new("TextButton")
 local OutfitButton = Instance.new("TextButton")
+local NoShirtButton = Instance.new("TextButton")
+local NoPantButton = Instance.new("TextButton")
 
 --Properties:
 
@@ -529,6 +531,46 @@ vestenikesacoche.MouseButton1Down:connect(function()
 	local args = {
 		[1] = "wear",
 		[2] = 7404331902
+	}
+
+	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+
+end)
+
+NoShirtButton.Name = "NoShirtButton"
+NoShirtButton.Parent = OutfitCaTalog
+NoShirtButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoShirtButton.Position = UDim2.new(0.662015498, 0, 0.653203309, 0)
+NoShirtButton.Size = UDim2.new(0, 200, 0, 50)
+NoShirtButton.Font = Enum.Font.SourceSans
+NoShirtButton.Text = "No-Shirt"
+NoShirtButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoShirtButton.TextSize = 14.000
+NoShirtButton.MouseButton1Down:connect(function()
+
+	local args = {
+		[1] = "wear",
+		[2] = 7618925899
+	}
+
+	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+
+end)
+
+NoPantButton.Name = "NoPantButton"
+NoPantButton.Parent = OutfitCaTalog
+NoPantButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoPantButton.Position = UDim2.new(0.344186068, 0, 0.754874587, 0)
+NoPantButton.Size = UDim2.new(0, 200, 0, 50)
+NoPantButton.Font = Enum.Font.SourceSans
+NoPantButton.Text = "No-Pant"
+NoPantButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoPantButton.TextSize = 14.000
+NoPantButton.MouseButton1Down:connect(function()
+
+	local args = {
+		[1] = "wear",
+		[2] = 8522494824
 	}
 
 	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
