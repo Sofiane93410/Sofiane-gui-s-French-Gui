@@ -64,6 +64,22 @@ local chignonblond = Instance.new("TextButton")
 local cheveuxblond = Instance.new("TextButton")
 local lunettesblanche = Instance.new("TextButton")
 local tenueecoliere = Instance.new("TextButton")
+local MisBrookhavenButton = Instance.new("TextButton")
+local MiscBrookhaven = Instance.new("ScrollingFrame")
+local MiscBrookhavenTextLabel = Instance.new("TextLabel")
+local ValidateClothe = Instance.new("TextButton")
+local Customclothesid = Instance.new("TextLabel")
+local Enterclothesid = Instance.new("TextBox")
+local SignCustom = Instance.new("TextLabel")
+local Entersigntext = Instance.new("TextBox")
+local ValidateSignText = Instance.new("TextButton")
+local Raimbowname = Instance.new("TextButton")
+local RaimbowText = Instance.new("TextButton")
+local CustomMusicId = Instance.new("TextLabel")
+local Entermusicid = Instance.new("TextBox")
+local ValidateMusicID = Instance.new("TextButton")
+local RaimbowBio = Instance.new("TextButton")
+local RaimbowName = Instance.new("TextButton")
 
 --Properties:
 
@@ -136,19 +152,7 @@ MotorVehiclesButton.TextSize = 19.000
 MotorVehiclesButton.MouseButton1Down:connect(function()
 	MotorVehiclesCatalog.Visible = true
 	OutfitButton.Visible = false
-end)
-MotorVehiclesButton.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "200PlayerGiveSpeed",
-		[2] = "200"
-	}
-
-	game:GetService("ReplicatedStorage").G4444.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
-
-end)
-	
-
-
+end)	
 
 TextMenu.Name = "Text Menu"
 TextMenu.Parent = Gui
@@ -203,7 +207,7 @@ Durag.MouseButton1Down:connect(function()
 		[2] = 7028762683
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -223,7 +227,7 @@ Casquettebleu.MouseButton1Down:connect(function()
 		[2] = 6810609456
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -243,7 +247,7 @@ casquetterose.MouseButton1Down:connect(function()
 		[2] = 7128720860
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -264,7 +268,7 @@ locks.MouseButton1Down:connect(function()
 		[2] = 6983883787
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -284,7 +288,7 @@ waves.MouseButton1Down:connect(function()
 		[2] = 5153072488
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -304,7 +308,7 @@ Blackmessyhair.MouseButton1Down:connect(function()
 		[2] = 7183785281
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -325,7 +329,7 @@ tnnike.MouseButton1Down:connect(function()
 		[2] = 9081182159
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -346,7 +350,7 @@ basnikebleu.MouseButton1Down:connect(function()
 		[2] = 8656182616
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -367,7 +371,7 @@ pantalonjordannoir.MouseButton1Down:connect(function()
 		[2] = 7037524219
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -398,7 +402,7 @@ Juventusronaldo.MouseButton1Down:connect(function()
 		[2] = 4894026758
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -418,7 +422,7 @@ hautnikebleu.MouseButton1Down:connect(function()
 		[2] = 8656178062
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -438,7 +442,7 @@ maillotdebasket.MouseButton1Down:connect(function()
 		[2] = 6792183911
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -458,7 +462,7 @@ casquettegucci.MouseButton1Down:connect(function()
 		[2] = 5314363790
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -478,7 +482,7 @@ casqeuttenwaralenver.MouseButton1Down:connect(function()
 		[2] = 6774189421
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -498,7 +502,7 @@ bandanaheadband.MouseButton1Down:connect(function()
 		[2] = 8918779343
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -518,7 +522,7 @@ dorplatine.MouseButton1Down:connect(function()
 		[2] = 5806385513
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -538,7 +542,7 @@ vestenikesacoche.MouseButton1Down:connect(function()
 		[2] = 7404331902
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -558,14 +562,14 @@ NoShirtButton.MouseButton1Down:connect(function()
 		[2] = 7618925899
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
 NoPantButton.Name = "NoPantButton"
 NoPantButton.Parent = OutfitCaTalog
 NoPantButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoPantButton.Position = UDim2.new(0.344186068, 0, 0.754874587, 0)
+NoPantButton.Position = UDim2.new(0.662015498, 0, 0.756267369, 0)
 NoPantButton.Size = UDim2.new(0, 200, 0, 50)
 NoPantButton.Font = Enum.Font.SourceSans
 NoPantButton.Text = "No-Pant"
@@ -578,7 +582,7 @@ NoPantButton.MouseButton1Down:connect(function()
 		[2] = 8522494824
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -598,7 +602,7 @@ chignonblond.MouseButton1Down:connect(function()
 		[2] = 8996212761
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -618,7 +622,7 @@ cheveuxblond.MouseButton1Down:connect(function()
 		[2] = 7284206648
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -638,7 +642,7 @@ lunettesblanche.MouseButton1Down:connect(function()
 		[2] = 7246171208
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -659,7 +663,7 @@ tenueecoliere.MouseButton1Down:connect(function()
 		[2] = 4707960410
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -679,7 +683,7 @@ Collant.MouseButton1Down:connect(function()
 		[2] = 6256942218
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
 
 end)
 
@@ -718,7 +722,7 @@ GazoHS.MouseButton1Down:connect(function()
 		[2] = "6966932205"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
 end)
 
 JulBlk.Name = "Jul Blk"
@@ -737,7 +741,7 @@ JulBlk.MouseButton1Down:connect(function()
 		[2] = "7017598318"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
 end)
 
 NapsKiffance.Name = "Naps Kiffance"
@@ -756,7 +760,7 @@ NapsKiffance.MouseButton1Down:connect(function()
 		[2] = "6950906321"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
 end)
 
 IskLebillet.Name = "Isk - Le billet"
@@ -775,7 +779,7 @@ IskLebillet.MouseButton1Down:connect(function()
 		[2] = "6950593634"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
 end)
 
 gazotchin.Name = "gazo tchin"
@@ -794,7 +798,7 @@ gazotchin.MouseButton1Down:connect(function()
 		[2] = "6950646907"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
 end)
 
 luciddream.Name = "lucid dream"
@@ -813,7 +817,7 @@ luciddream.MouseButton1Down:connect(function()
 		[2] = "6879637916"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
 end)
 
 DtfMg.Name = "Dtf -Mg"
@@ -832,7 +836,7 @@ DtfMg.MouseButton1Down:connect(function()
 		[2] = "9264587845"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
 end)
 
 Soon.Name = "Soon"
@@ -927,7 +931,7 @@ JulBlk_2.MouseButton1Down:connect(function()
 		[2] = "7017598318"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
 end)
 
 NapsKiffance_2.Name = "Naps Kiffance"
@@ -946,7 +950,7 @@ NapsKiffance_2.MouseButton1Down:connect(function()
 		[2] = "6950906321"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
 end)
 
 IskLebillet_2.Name = "Isk - Le billet"
@@ -965,7 +969,7 @@ IskLebillet_2.MouseButton1Down:connect(function()
 		[2] = "6950593634"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
 end)
 
 gazotchin_2.Name = "gazo tchin"
@@ -984,7 +988,7 @@ gazotchin_2.MouseButton1Down:connect(function()
 		[2] = "6950646907"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
 end)
 
 luciddream_2.Name = "lucid dream"
@@ -1003,7 +1007,7 @@ luciddream_2.MouseButton1Down:connect(function()
 		[2] = "6879637916"
 	}
 
-	game:GetService("ReplicatedStorage").V554e35.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
 end)
 
 
@@ -1094,6 +1098,206 @@ OutfitButton.MouseButton1Down:connect(function()
 	OutfitButton.Visible = false
 	TextLabel_2.Visible = true
 end)
+
+MisBrookhavenButton.Name = "Mis BrookhavenButton"
+MisBrookhavenButton.Parent = Gui
+MisBrookhavenButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MisBrookhavenButton.BackgroundTransparency = 0.800
+MisBrookhavenButton.Position = UDim2.new(0.412983418, 0, 0.378830075, 0)
+MisBrookhavenButton.Size = UDim2.new(0, 200, 0, 50)
+MisBrookhavenButton.Visible = false
+MisBrookhavenButton.Font = Enum.Font.SourceSans
+MisBrookhavenButton.Text = "Soon......"
+MisBrookhavenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+MisBrookhavenButton.TextSize = 20.000
+MisBrookhavenButton.TextWrapped = true
+
+MisBrookhavenButton.Name = "Mis BrookhavenButton"
+MisBrookhavenButton.Parent = Gui
+MisBrookhavenButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MisBrookhavenButton.BackgroundTransparency = 0.800
+MisBrookhavenButton.Position = UDim2.new(0.412983418, 0, 0.378830075, 0)
+MisBrookhavenButton.Size = UDim2.new(0, 200, 0, 50)
+MisBrookhavenButton.Visible = false
+MisBrookhavenButton.Font = Enum.Font.SourceSans
+MisBrookhavenButton.Text = "Soon......"
+MisBrookhavenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+MisBrookhavenButton.TextSize = 20.000
+MisBrookhavenButton.TextWrapped = true
+
+MiscBrookhaven.Name = "MiscBrookhaven"
+MiscBrookhaven.Parent = Gui
+MiscBrookhaven.Active = true
+MiscBrookhaven.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+MiscBrookhaven.BorderSizePixel = 0
+MiscBrookhaven.Position = UDim2.new(0.106353588, 0, 0.164345399, 0)
+MiscBrookhaven.Size = UDim2.new(0, 646, 0, 299)
+MiscBrookhaven.Visible = false
+
+MiscBrookhavenTextLabel.Name = "MiscBrookhavenTextLabel"
+MiscBrookhavenTextLabel.Parent = MiscBrookhaven
+MiscBrookhavenTextLabel.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+MiscBrookhavenTextLabel.Position = UDim2.new(0, 0, 0.0201899484, 0)
+MiscBrookhavenTextLabel.Size = UDim2.new(0, 627, 0, 50)
+MiscBrookhavenTextLabel.Font = Enum.Font.SourceSans
+MiscBrookhavenTextLabel.Text = "Misc Brookhaven"
+MiscBrookhavenTextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+MiscBrookhavenTextLabel.TextSize = 14.000
+
+ValidateClothe.Name = "ValidateClothe"
+ValidateClothe.Parent = MiscBrookhaven
+ValidateClothe.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+ValidateClothe.BorderColor3 = Color3.fromRGB(148, 148, 148)
+ValidateClothe.Position = UDim2.new(0.636222899, 0, 0.116374835, 0)
+ValidateClothe.Size = UDim2.new(0, 101, 0, 36)
+ValidateClothe.Font = Enum.Font.SourceSans
+ValidateClothe.Text = "Validate"
+ValidateClothe.TextColor3 = Color3.fromRGB(0, 0, 0)
+ValidateClothe.TextSize = 14.000
+
+Customclothesid.Name = "Custom clothes id"
+Customclothesid.Parent = MiscBrookhaven
+Customclothesid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Customclothesid.BackgroundTransparency = 0.850
+Customclothesid.Position = UDim2.new(0, 0, 0.11513944, 0)
+Customclothesid.Size = UDim2.new(0, 129, 0, 37)
+Customclothesid.Font = Enum.Font.SourceSans
+Customclothesid.Text = "Custom clothes with ID"
+Customclothesid.TextColor3 = Color3.fromRGB(0, 0, 0)
+Customclothesid.TextSize = 14.000
+
+Enterclothesid.Name = "Enter clothes id"
+Enterclothesid.Parent = MiscBrookhaven
+Enterclothesid.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Enterclothesid.BorderColor3 = Color3.fromRGB(84, 84, 84)
+Enterclothesid.BorderSizePixel = 0
+Enterclothesid.Position = UDim2.new(0.21207431, 0, 0.114866585, 0)
+Enterclothesid.Size = UDim2.new(0, 264, 0, 38)
+Enterclothesid.Font = Enum.Font.SourceSans
+Enterclothesid.Text = "Enter Clothes ID here .........."
+Enterclothesid.TextColor3 = Color3.fromRGB(0, 0, 0)
+Enterclothesid.TextSize = 14.000
+Enterclothesid.MouseButton1Down:connect(function()
+	local number = tonumber (Enterclothesid.Text)
+	if number then 7028762683 -- checking if is number
+		local args = {
+			[1]=tostring(number).."wear", --concating arguments
+			[2] = tostring(number)
+		}
+	end
+end)
+
+SignCustom.Name = "Sign Custom"
+SignCustom.Parent = MiscBrookhaven
+SignCustom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SignCustom.BackgroundTransparency = 0.850
+SignCustom.Position = UDim2.new(0, 0, 0.202883169, 0)
+SignCustom.Size = UDim2.new(0, 129, 0, 37)
+SignCustom.Font = Enum.Font.SourceSans
+SignCustom.Text = "Sign Custom"
+SignCustom.TextColor3 = Color3.fromRGB(0, 0, 0)
+SignCustom.TextSize = 14.000
+
+Entersigntext.Name = "Enter sign text"
+Entersigntext.Parent = MiscBrookhaven
+Entersigntext.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Entersigntext.BorderColor3 = Color3.fromRGB(84, 84, 84)
+Entersigntext.BorderSizePixel = 0
+Entersigntext.Position = UDim2.new(0.21207431, 0, 0.202610314, 0)
+Entersigntext.Size = UDim2.new(0, 264, 0, 38)
+Entersigntext.Font = Enum.Font.SourceSans
+Entersigntext.Text = "Enter Sign TextHere........."
+Entersigntext.TextColor3 = Color3.fromRGB(0, 0, 0)
+Entersigntext.TextSize = 14.000
+
+ValidateSignText.Name = "ValidateSignText"
+ValidateSignText.Parent = MiscBrookhaven
+ValidateSignText.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+ValidateSignText.BorderColor3 = Color3.fromRGB(148, 148, 148)
+ValidateSignText.Position = UDim2.new(0.636222899, 0, 0.206904083, 0)
+ValidateSignText.Size = UDim2.new(0, 101, 0, 36)
+ValidateSignText.Font = Enum.Font.SourceSans
+ValidateSignText.Text = "Validate"
+ValidateSignText.TextColor3 = Color3.fromRGB(0, 0, 0)
+ValidateSignText.TextSize = 14.000
+
+Raimbowname.Name = "Raimbow name"
+Raimbowname.Parent = MiscBrookhaven
+Raimbowname.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+Raimbowname.BorderColor3 = Color3.fromRGB(148, 148, 148)
+Raimbowname.Position = UDim2.new(0.122291014, 0, 0.284681737, 0)
+Raimbowname.Size = UDim2.new(0, 123, 0, 36)
+Raimbowname.Font = Enum.Font.SourceSans
+Raimbowname.Text = "Raimbow Background"
+Raimbowname.TextColor3 = Color3.fromRGB(0, 0, 0)
+Raimbowname.TextSize = 14.000
+
+RaimbowText.Name = "Raimbow Text"
+RaimbowText.Parent = MiscBrookhaven
+RaimbowText.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+RaimbowText.BorderColor3 = Color3.fromRGB(148, 148, 148)
+RaimbowText.Position = UDim2.new(0.538699627, 0, 0.284681737, 0)
+RaimbowText.Size = UDim2.new(0, 123, 0, 36)
+RaimbowText.Font = Enum.Font.SourceSans
+RaimbowText.Text = "Raimbow Text"
+RaimbowText.TextColor3 = Color3.fromRGB(0, 0, 0)
+RaimbowText.TextSize = 14.000
+
+CustomMusicId.Name = "Custom Music Id"
+CustomMusicId.Parent = MiscBrookhaven
+CustomMusicId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CustomMusicId.BackgroundTransparency = 0.850
+CustomMusicId.Position = UDim2.new(0, 0, 0.364443064, 0)
+CustomMusicId.Size = UDim2.new(0, 129, 0, 37)
+CustomMusicId.Font = Enum.Font.SourceSans
+CustomMusicId.Text = "Custom Music with ID"
+CustomMusicId.TextColor3 = Color3.fromRGB(0, 0, 0)
+CustomMusicId.TextSize = 14.000
+
+Entermusicid.Name = "Enter music id"
+Entermusicid.Parent = MiscBrookhaven
+Entermusicid.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Entermusicid.BorderColor3 = Color3.fromRGB(84, 84, 84)
+Entermusicid.BorderSizePixel = 0
+Entermusicid.Position = UDim2.new(0.211999997, 0, 0.363509744, 0)
+Entermusicid.Size = UDim2.new(0, 264, 0, 38)
+Entermusicid.Font = Enum.Font.SourceSans
+Entermusicid.Text = "Enter Music Id Here..............."
+Entermusicid.TextColor3 = Color3.fromRGB(0, 0, 0)
+Entermusicid.TextSize = 14.000
+
+ValidateMusicID.Name = "Validate Music ID"
+ValidateMusicID.Parent = MiscBrookhaven
+ValidateMusicID.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+ValidateMusicID.BorderColor3 = Color3.fromRGB(148, 148, 148)
+ValidateMusicID.Position = UDim2.new(0.636222899, 0, 0.364285678, 0)
+ValidateMusicID.Size = UDim2.new(0, 101, 0, 36)
+ValidateMusicID.Font = Enum.Font.SourceSans
+ValidateMusicID.Text = "Validate"
+ValidateMusicID.TextColor3 = Color3.fromRGB(0, 0, 0)
+ValidateMusicID.TextSize = 14.000
+
+RaimbowBio.Name = "Raimbow Bio"
+RaimbowBio.Parent = MiscBrookhaven
+RaimbowBio.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+RaimbowBio.BorderColor3 = Color3.fromRGB(148, 148, 148)
+RaimbowBio.Position = UDim2.new(0.5, 0, 0.466052115, 0)
+RaimbowBio.Size = UDim2.new(0, 172, 0, 36)
+RaimbowBio.Font = Enum.Font.SourceSans
+RaimbowBio.Text = "Raimbow Bio"
+RaimbowBio.TextColor3 = Color3.fromRGB(0, 0, 0)
+RaimbowBio.TextSize = 14.000
+
+RaimbowName.Name = "Raimbow Name"
+RaimbowName.Parent = MiscBrookhaven
+RaimbowName.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
+RaimbowName.BorderColor3 = Color3.fromRGB(148, 148, 148)
+RaimbowName.Position = UDim2.new(0.122291028, 0, 0.465437233, 0)
+RaimbowName.Size = UDim2.new(0, 174, 0, 36)
+RaimbowName.Font = Enum.Font.SourceSans
+RaimbowName.Text = "Raimbow Name"
+RaimbowName.TextColor3 = Color3.fromRGB(0, 0, 0)
+RaimbowName.TextSize = 14.000
 
 OpenGui.Name = "OpenGui"
 OpenGui.Parent = CheatUnderThisFrame
@@ -1202,3 +1406,4 @@ local function CAUW_fake_script() -- Gui.LocalScript
 
 end
 coroutine.wrap(CAUW_fake_script)()
+
