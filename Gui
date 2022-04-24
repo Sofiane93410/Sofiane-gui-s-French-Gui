@@ -1,224 +1,428 @@
---Gui Maked By Sofiane 
 
-local SofianeGuis = Instance.new("ScreenGui")
-local CheatUnderThisFrame = Instance.new("Frame")
-local Gui = Instance.new("Frame")
-local leftbar = Instance.new("Frame")
-local topbar = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local NoMotorVehiclesButton = Instance.new("TextButton")
-local MotorVehiclesButton = Instance.new("TextButton")
-local TextMenu = Instance.new("TextLabel")
-local NoMotorVehiclesCatalog = Instance.new("ScrollingFrame")
-local TextLabel_2 = Instance.new("TextLabel")
-local GazoHS = Instance.new("TextButton")
-local JulBlk = Instance.new("TextButton")
-local NapsKiffance = Instance.new("TextButton")
-local IskLebillet = Instance.new("TextButton")
-local gazotchin = Instance.new("TextButton")
-local luciddream = Instance.new("TextButton")
-local DtfMg = Instance.new("TextButton")
-local Soon = Instance.new("TextButton")
-local Soon_2 = Instance.new("TextButton")
-local CloseNoMotorGui = Instance.new("TextButton")
-local MotorVehiclesCatalog = Instance.new("ScrollingFrame")
-local TextLabel_3 = Instance.new("TextLabel")
-local GazoHS_2 = Instance.new("TextButton")
-local JulBlk_2 = Instance.new("TextButton")
-local NapsKiffance_2 = Instance.new("TextButton")
-local IskLebillet_2 = Instance.new("TextButton")
-local gazotchin_2 = Instance.new("TextButton")
-local luciddream_2 = Instance.new("TextButton")
-local DtfMg_2 = Instance.new("TextButton")
-local Soon_3 = Instance.new("TextButton")
-local Soon_4 = Instance.new("TextButton")
-local CloseCarCatalog = Instance.new("TextButton")
-local CloseGui = Instance.new("TextButton")
-local OpenGui = Instance.new("TextButton")
-local TextLabel = Instance.new("TextLabel")
-local OutfitCaTalog = Instance.new("ScrollingFrame")
-local CloseOutfitGui = Instance.new("TextButton")
-local Durag = Instance.new("TextButton")
-local Casquettebleu = Instance.new("TextButton")
-local casquetterose = Instance.new("TextButton")
-local locks = Instance.new("TextButton")
-local waves = Instance.new("TextButton")
-local Blackmessyhair = Instance.new("TextButton")
-local tnnike = Instance.new("TextButton")
-local basnikebleu = Instance.new("TextButton")
-local pantalonjordannoir = Instance.new("TextButton")
-local Jspquoimettre = Instance.new("TextLabel")
-local Juventusronaldo = Instance.new("TextButton")
-local hautnikebleu = Instance.new("TextButton")
-local maillotdebasket = Instance.new("TextButton")
-local casquettegucci = Instance.new("TextButton")
-local casqeuttenwaralenver = Instance.new("TextButton")
-local bandanaheadband = Instance.new("TextButton")
-local dorplatine = Instance.new("TextButton")
-local vestenikesacoche = Instance.new("TextButton")
-local OutfitButton = Instance.new("TextButton")
-local NoShirtButton = Instance.new("TextButton")
-local NoPantButton = Instance.new("TextButton")
-local Collant = Instance.new("TextButton")
-local chignonblond = Instance.new("TextButton")
-local cheveuxblond = Instance.new("TextButton")
-local lunettesblanche = Instance.new("TextButton")
-local tenueecoliere = Instance.new("TextButton")
-local MisBrookhavenButton = Instance.new("TextButton")
-local MiscBrookhaven = Instance.new("ScrollingFrame")
-local MiscBrookhavenTextLabel = Instance.new("TextLabel")
-local ValidateClothe = Instance.new("TextButton")
-local Customclothesid = Instance.new("TextLabel")
-local Enterclothesid = Instance.new("TextBox")
-local SignCustom = Instance.new("TextLabel")
-local Entersigntext = Instance.new("TextBox")
-local ValidateSignText = Instance.new("TextButton")
-local Raimbowname = Instance.new("TextButton")
-local RaimbowText = Instance.new("TextButton")
-local CustomMusicId = Instance.new("TextLabel")
-local Entermusicid = Instance.new("TextBox")
-local ValidateMusicID = Instance.new("TextButton")
-local RaimbowBio = Instance.new("TextButton")
-local Roomate = Instance.new("TextButton")
+local ExeMenu = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
-local soon = Instance.new("TextLabel")
+local Gui = Instance.new("Frame")
+local TopBar = Instance.new("Frame")
+local Exe = Instance.new("TextLabel")
+local LeftBar = Instance.new("Frame")
+local ExeHome = Instance.new("Frame")
+local MadebySofiane5554 = Instance.new("TextLabel")
+local PlayerName = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton_2 = Instance.new("TextButton")
+local ExeMusic = Instance.new("TextButton")
+local ExeClothes = Instance.new("TextButton")
+local ExeHome_2 = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+local ExeClothes_2 = Instance.new("Frame")
+local Validate = Instance.new("TextButton")
+local ClothesId = Instance.new("TextBox")
+local Exemple = Instance.new("TextLabel")
+local ExeMusic_2 = Instance.new("Frame")
+local ValidateButton = Instance.new("TextButton")
+local MusicId = Instance.new("TextBox")
+local Loadingsong = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UICorner = Instance.new("UICorner")
+local Execatalog = Instance.new("TextButton")
+local Outfitcatalog = Instance.new("ScrollingFrame")
+local locks = Instance.new("TextButton")
+local BigSmile = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Casquettebleu = Instance.new("TextButton")
+local CloseNoMotorGui = Instance.new("TextButton")
+local Durag = Instance.new("TextButton")
+local waves = Instance.new("TextButton")
+local vestenikesacoche = Instance.new("TextButton")
+local Juventusronaldo = Instance.new("TextButton")
+local pantalonjordannoir = Instance.new("TextButton")
+local tnnike = Instance.new("TextButton")
+local maillotdebasket = Instance.new("TextButton")
+local SofianeSmile = Instance.new("TextButton")
+local bandanaheadband = Instance.new("TextButton")
+local basnikebleu = Instance.new("TextButton")
+local casqeuttenwaralenver = Instance.new("TextButton")
+local casquettegucci = Instance.new("TextButton")
+local casquetterose = Instance.new("TextButton")
+local dorplatine = Instance.new("TextButton")
+local hautnikebleu = Instance.new("TextButton")
 local OpenGui = Instance.new("TextButton")
-local TextLabel_5 = Instance.new("TextLabel")
+local Blackmessyhair = Instance.new("TextButton")
 
 --Properties:
 
-SofianeGuis.Name = "Sofiane Gui's"
-SofianeGuis.Parent = game.CoreGui
-SofianeGuis.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ExeMenu.Name = "Exe.Menu"
+ExeMenu.Parent = game.CoreGui
+ExeMenu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-CheatUnderThisFrame.Name = "Cheat Under This Frame"
-CheatUnderThisFrame.Parent = SofianeGuis
-CheatUnderThisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CheatUnderThisFrame.BackgroundTransparency = 1.000
-CheatUnderThisFrame.Size = UDim2.new(0, 100, 0, 100)
+Frame.Parent = ExeMenu
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Size = UDim2.new(0, 21, 0, 23)
 
 Gui.Name = "Gui"
-Gui.Parent = CheatUnderThisFrame
-Gui.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-Gui.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Gui.Position = UDim2.new(3.08720756, 0, 2.27693248, 0)
-Gui.Size = UDim2.new(0, 724, 0, 359)
-Gui.Visible = false
+Gui.Parent = Frame
+Gui.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+Gui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Gui.Position = UDim2.new(20.188715, 0, 12.8299627, 0)
+Gui.Size = UDim2.new(0, 460, 0, 273)
 
-leftbar.Name = "left bar"
-leftbar.Parent = Gui
-leftbar.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-leftbar.BorderSizePixel = 0
-leftbar.Size = UDim2.new(0, 77, 0, 359)
+TopBar.Name = "Top Bar"
+TopBar.Parent = Gui
+TopBar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TopBar.BorderSizePixel = 0
+TopBar.Size = UDim2.new(0, 460, 0, 40)
 
-topbar.Name = "top bar"
-topbar.Parent = Gui
-topbar.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-topbar.BorderSizePixel = 0
-topbar.Size = UDim2.new(0, 724, 0, 59)
+Exe.Name = "Exe."
+Exe.Parent = TopBar
+Exe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exe.BackgroundTransparency = 1.000
+Exe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exe.Size = UDim2.new(0, 78, 0, 40)
+Exe.Font = Enum.Font.GothamBlack
+Exe.Text = "Exe."
+Exe.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exe.TextSize = 26.000
 
-TextLabel.Parent = topbar
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.0497237518, 0, 0.074127011, 0)
-TextLabel.Size = UDim2.new(0, 112, 0, 50)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Sofiane - Brookhaven"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextSize = 25.000
+LeftBar.Name = "Left Bar"
+LeftBar.Parent = Gui
+LeftBar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LeftBar.BorderSizePixel = 0
+LeftBar.Position = UDim2.new(0, 0, 0.146520153, 0)
+LeftBar.Size = UDim2.new(0, 78, 0, 233)
 
-NoMotorVehiclesButton.Name = "NoMotorVehiclesButton"
-NoMotorVehiclesButton.Parent = Gui
-NoMotorVehiclesButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoMotorVehiclesButton.BackgroundTransparency = 0.800
-NoMotorVehiclesButton.Position = UDim2.new(0.132596657, 0, 0.540389955, 0)
-NoMotorVehiclesButton.Size = UDim2.new(0, 200, 0, 50)
-NoMotorVehiclesButton.Font = Enum.Font.SourceSans
-NoMotorVehiclesButton.Text = "Hoverboard / Trotinette/Skate"
-NoMotorVehiclesButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-NoMotorVehiclesButton.TextSize = 20.000
-NoMotorVehiclesButton.MouseButton1Down:connect(function()
-	NoMotorVehiclesCatalog.Visible = true
-	OutfitButton.Visible = false
+ExeHome.Name = "Exe Home"
+ExeHome.Parent = Gui
+ExeHome.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+ExeHome.BorderSizePixel = 0
+ExeHome.Position = UDim2.new(0.169565216, 0, 0.143079266, 0)
+ExeHome.Size = UDim2.new(0, 382, 0, 233)
+ExeHome.Visible = false
+
+MadebySofiane5554.Name = "Made by Sofiane#5554"
+MadebySofiane5554.Parent = ExeHome
+MadebySofiane5554.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadebySofiane5554.BackgroundTransparency = 0.750
+MadebySofiane5554.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MadebySofiane5554.Position = UDim2.new(0, 0, 0.905579388, 0)
+MadebySofiane5554.Size = UDim2.new(0, 191, 0, 22)
+MadebySofiane5554.Font = Enum.Font.SourceSans
+MadebySofiane5554.Text = "Made By Sofiane#5554"
+MadebySofiane5554.TextColor3 = Color3.fromRGB(0, 0, 0)
+MadebySofiane5554.TextSize = 24.000
+
+PlayerName.Name = "Player Name"
+PlayerName.Parent = ExeHome
+PlayerName.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
+PlayerName.BackgroundTransparency = 0.800
+PlayerName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerName.Position = UDim2.new(0.445026189, 0, 0.0600858368, 0)
+PlayerName.Size = UDim2.new(0, 155, 0, 31)
+PlayerName.Font = Enum.Font.SourceSans
+PlayerName.Text = ""
+PlayerName.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlayerName.TextSize = 14.000
+
+TextButton.Parent = ExeHome
+TextButton.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
+TextButton.BackgroundTransparency = 0.850
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.Position = UDim2.new(0.445026189, 0, 0.283261806, 0)
+TextButton.Size = UDim2.new(0, 71, 0, 32)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Copy Discord"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:Connect(function()
+	setclipboard("Soon")
+	toclipboard("Soon")
 end)
 
+ImageLabel.Parent = ExeHome
+ImageLabel.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.Position = UDim2.new(0.0287958123, 0, 0.0515021458, 0)
+ImageLabel.Size = UDim2.new(0, 111, 0, 111)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-MotorVehiclesButton.Name = "MotorVehiclesButton"
-MotorVehiclesButton.Parent = Gui
-MotorVehiclesButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MotorVehiclesButton.BackgroundTransparency = 0.800
-MotorVehiclesButton.Position = UDim2.new(0.694751322, 0, 0.540389955, 0)
-MotorVehiclesButton.Size = UDim2.new(0, 202, 0, 50)
-MotorVehiclesButton.Font = Enum.Font.SourceSans
-MotorVehiclesButton.Text = "Voiture/Bus/Moto/camion"
-MotorVehiclesButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-MotorVehiclesButton.TextSize = 19.000
-MotorVehiclesButton.MouseButton1Down:connect(function()
-	MotorVehiclesCatalog.Visible = true
-	OutfitButton.Visible = false
-end)	
+TextButton_2.Parent = ExeHome
+TextButton_2.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
+TextButton_2.BackgroundTransparency = 0.850
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.Position = UDim2.new(0.664921463, 0, 0.283261806, 0)
+TextButton_2.Size = UDim2.new(0, 71, 0, 32)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "IceHub Discord"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 13.000
 
-TextMenu.Name = "Text Menu"
-TextMenu.Parent = Gui
-TextMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextMenu.BackgroundTransparency = 0.750
-TextMenu.BorderSizePixel = 0
-TextMenu.Position = UDim2.new(0.106353588, 0, 0.206128135, 0)
-TextMenu.Size = UDim2.new(0, 646, 0, 50)
-TextMenu.Font = Enum.Font.GothamBlack
-TextMenu.Text = "Choisie Le Moyen De Transport Dans lequel tu est"
-TextMenu.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextMenu.TextSize = 27.000
-
-OutfitCaTalog.Name = "OutfitCaTalog"
-OutfitCaTalog.Parent = Gui
-OutfitCaTalog.Active = true
-OutfitCaTalog.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-OutfitCaTalog.BorderSizePixel = 0
-OutfitCaTalog.Position = UDim2.new(0.106353588, 0, 0.164345399, 0)
-OutfitCaTalog.Size = UDim2.new(0, 645, 0, 300)
-OutfitCaTalog.Visible = false
-OutfitCaTalog.CanvasPosition = Vector2.new(0, 300)
-
-CloseOutfitGui.Name = "CloseOutfitGui"
-CloseOutfitGui.Parent = OutfitCaTalog
-CloseOutfitGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CloseOutfitGui.BackgroundTransparency = 0.950
-CloseOutfitGui.Position = UDim2.new(0.835658908, 0, 0.0205003545, 0)
-CloseOutfitGui.Size = UDim2.new(0, 88, 0, 50)
-CloseOutfitGui.Font = Enum.Font.GothamBlack
-CloseOutfitGui.Text = "X"
-CloseOutfitGui.TextColor3 = Color3.fromRGB(255, 0, 0)
-CloseOutfitGui.TextSize = 30.000
-CloseOutfitGui.MouseButton1Down:connect(function()
-	OutfitButton.Visible = true
-	OutfitCaTalog.Visible = false
+ExeMusic.Name = "Exe Music"
+ExeMusic.Parent = Gui
+ExeMusic.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ExeMusic.BorderSizePixel = 0
+ExeMusic.Position = UDim2.new(0, 0, 0.473551333, 0)
+ExeMusic.Size = UDim2.new(0, 78, 0, 39)
+ExeMusic.Font = Enum.Font.SourceSans
+ExeMusic.Text = "Exe Music"
+ExeMusic.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExeMusic.TextSize = 20.000
+ExeMusic.MouseButton1Down:Connect(function()
+	ExeMusic_2.Visible = true
+	ExeHome.Visible = false
+	Outfitcatalog.Visible = false
+	ExeClothes_2.Visible = false
 end)
 
-Durag.Name = "Durag"
-Durag.Parent = OutfitCaTalog
-Durag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Durag.Position = UDim2.new(0, 0, 0.101671308, 0)
-Durag.Size = UDim2.new(0, 200, 0, 50)
-Durag.Font = Enum.Font.SourceSans
-Durag.Text = "Durag"
-Durag.TextColor3 = Color3.fromRGB(0, 0, 0)
-Durag.TextSize = 14.000
-Durag.MouseButton1Down:connect(function()
+ExeClothes.Name = "Exe Clothes"
+ExeClothes.Parent = Gui
+ExeClothes.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ExeClothes.BorderSizePixel = 0
+ExeClothes.Position = UDim2.new(0, 0, 0.310461223, 0)
+ExeClothes.Size = UDim2.new(0, 78, 0, 39)
+ExeClothes.Font = Enum.Font.SourceSans
+ExeClothes.Text = "Exe Clothes"
+ExeClothes.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExeClothes.TextSize = 20.000
+ExeClothes.MouseButton1Down:Connect(function()
+	ExeClothes_2.Visible = true
+	ExeHome.Visible = false
+	ExeMusic_2.Visible = false
+	Outfitcatalog.Visible = false
+end)
 
+ExeHome_2.Name = "ExeHome"
+ExeHome_2.Parent = Gui
+ExeHome_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ExeHome_2.BorderSizePixel = 0
+ExeHome_2.Position = UDim2.new(0, 0, 0.143079266, 0)
+ExeHome_2.Size = UDim2.new(0, 78, 0, 39)
+ExeHome_2.Font = Enum.Font.SourceSans
+ExeHome_2.Text = "Exe Home"
+ExeHome_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExeHome_2.TextSize = 20.000
+ExeHome_2.MouseButton1Down:Connect(function()
+	ExeHome.Visible = true
+	ExeMusic_2.Visible = false
+	ExeClothes_2.Visible = false
+	Outfitcatalog.Visible = false
+end)
+
+X.Name = "X"
+X.Parent = Gui
+X.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.865217388, 0, 0, 0)
+X.Size = UDim2.new(0, 55, 0, 38)
+X.Font = Enum.Font.GothamBlack
+X.Text = "X "
+X.TextColor3 = Color3.fromRGB(255, 0, 0)
+X.TextSize = 34.000
+X.MouseButton1Down:Connect(function()
+	X.Visible = false
+	OpenGui.Visible = true
+	Gui.Visible = false
+end)
+	
+
+ExeClothes_2.Name = "ExeClothes"
+ExeClothes_2.Parent = Gui
+ExeClothes_2.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+ExeClothes_2.BorderSizePixel = 0
+ExeClothes_2.Position = UDim2.new(0.169565216, 0, 0.143079266, 0)
+ExeClothes_2.Size = UDim2.new(0, 382, 0, 233)
+
+Validate.Name = "Validate"
+Validate.Parent = ExeClothes_2
+Validate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Validate.BackgroundTransparency = 0.750
+Validate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Validate.Position = UDim2.new(0.667539239, 0, 0.248927042, 0)
+Validate.Size = UDim2.new(0, 98, 0, 45)
+Validate.Font = Enum.Font.SourceSans
+Validate.Text = "Validate"
+Validate.TextColor3 = Color3.fromRGB(0, 0, 0)
+Validate.TextSize = 14.000
+Validate.MouseButton1Down:Connect(function()
 	local args = {
 		[1] = "wear",
-		[2] = 7028762683
+		[2] = tonumber(ClothesId.Text)
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
+ClothesId.Name = "Clothes Id"
+ClothesId.Parent = ExeClothes_2
+ClothesId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ClothesId.BackgroundTransparency = 0.750
+ClothesId.Position = UDim2.new(0.0418848172, 0, 0.248927042, 0)
+ClothesId.Size = UDim2.new(0, 233, 0, 45)
+ClothesId.Font = Enum.Font.SourceSans
+ClothesId.Text = "Enter your id here....."
+ClothesId.TextColor3 = Color3.fromRGB(0, 0, 0)
+ClothesId.TextSize = 14.000
+
+Exemple.Name = "Exemple"
+Exemple.Parent = ExeClothes_2
+Exemple.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exemple.BackgroundTransparency = 1.000
+Exemple.Position = UDim2.new(0.193717286, 0, 0, 0)
+Exemple.Size = UDim2.new(0, 200, 0, 50)
+Exemple.Font = Enum.Font.SourceSans
+Exemple.Text = "Exemple : 7183785281"
+Exemple.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exemple.TextSize = 14.000
+
+ExeMusic_2.Name = "Exe Music"
+ExeMusic_2.Parent = Gui
+ExeMusic_2.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+ExeMusic_2.BorderSizePixel = 0
+ExeMusic_2.Position = UDim2.new(0.169565216, 0, 0.143079266, 0)
+ExeMusic_2.Size = UDim2.new(0, 382, 0, 233)
+ExeMusic_2.Visible = false
+
+ValidateButton.Name = "Validate Button"
+ValidateButton.Parent = ExeMusic_2
+ValidateButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ValidateButton.BackgroundTransparency = 0.750
+ValidateButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ValidateButton.Position = UDim2.new(0.667539239, 0, 0.248927042, 0)
+ValidateButton.Size = UDim2.new(0, 98, 0, 45)
+ValidateButton.Font = Enum.Font.SourceSans
+ValidateButton.Text = "Validate"
+ValidateButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ValidateButton.TextSize = 14.000
+ValidateButton.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "PickingScooterMusicText",
+		[2] = MusicId.Text
+	}
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+
+end)
+ValidateButton.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "PickingCarMusicText",
+		[2] = MusicId.Text
+	}
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Player28sCa28r"):FireServer(unpack(args))
+end)
+
+
+MusicId.Name = "Music Id"
+MusicId.Parent = ExeMusic_2
+MusicId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MusicId.BackgroundTransparency = 0.750
+MusicId.Position = UDim2.new(0.0418848172, 0, 0.248927042, 0)
+MusicId.Size = UDim2.new(0, 233, 0, 45)
+MusicId.Font = Enum.Font.SourceSans
+MusicId.Text = "Enter Music Id...."
+MusicId.TextColor3 = Color3.fromRGB(0, 0, 0)
+MusicId.TextSize = 14.000
+
+Loadingsong.Name = "Loading song"
+Loadingsong.Parent = ExeMusic_2
+Loadingsong.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Loadingsong.Position = UDim2.new(-1.31413615, 0, -1.43776822, 0)
+Loadingsong.Size = UDim2.new(0, 1371, 0, 815)
+Loadingsong.Visible = false
+
+TextLabel.Parent = Loadingsong
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.16776076, 0, 0.322699368, 0)
+TextLabel.Size = UDim2.new(0, 808, 0, 201)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Exe Loading The Song"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UITextSizeConstraint.Parent = TextLabel
+
+UICorner.Parent = TextLabel
+
+Execatalog.Name = "Exe catalog"
+Execatalog.Parent = Gui
+Execatalog.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Execatalog.BorderSizePixel = 0
+Execatalog.Position = UDim2.new(0, 0, 0.642049491, 0)
+Execatalog.Size = UDim2.new(0, 78, 0, 39)
+Execatalog.Font = Enum.Font.SourceSans
+Execatalog.Text = "Exe Catalog"
+Execatalog.TextColor3 = Color3.fromRGB(0, 0, 0)
+Execatalog.TextSize = 19.000
+Execatalog.MouseButton1Down:Connect(function()
+	ExeClothes_2.Visible = false
+	ExeHome.Visible = false
+	ExeMusic_2.Visible = false
+	Outfitcatalog.Visible = true
+end)
+
+Outfitcatalog.Name = "Outfit catalog"
+Outfitcatalog.Parent = Gui
+Outfitcatalog.Active = true
+Outfitcatalog.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+Outfitcatalog.Position = UDim2.new(0.169565216, 0, 0.146520153, 0)
+Outfitcatalog.Size = UDim2.new(0, 382, 0, 232)
+
+locks.Name = "locks"
+locks.Parent = Outfitcatalog
+locks.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+locks.Position = UDim2.new(-0.00261780107, 0, 0.22646603, 0)
+locks.Size = UDim2.new(0, 190, 0, 50)
+locks.Font = Enum.Font.SourceSans
+locks.Text = "locks"
+locks.TextColor3 = Color3.fromRGB(0, 0, 0)
+locks.TextSize = 14.000
+locks.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "wear",
+		[2] = 6983883787
+	}
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+end)
+
+BigSmile.Name = "Big Smile"
+BigSmile.Parent = Outfitcatalog
+BigSmile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BigSmile.Position = UDim2.new(-0.00232957304, 0, 0.760189176, 0)
+BigSmile.Size = UDim2.new(0, 168, 0, 58)
+BigSmile.Font = Enum.Font.SourceSans
+BigSmile.Text = "Le Smile A Sahbi"
+BigSmile.TextColor3 = Color3.fromRGB(0, 0, 0)
+BigSmile.TextSize = 14.000
+BigSmile.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "wear",
+		[2] = 6093227225
+	}
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+
+end)
+
+TextLabel_2.Parent = Outfitcatalog
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 0.750
+TextLabel_2.Position = UDim2.new(-0.0942408368, 0, -0.074701868, 0)
+TextLabel_2.Size = UDim2.new(0, 627, 0, 50)
+TextLabel_2.Visible = false
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Choisie L'outfit que tu veut Que Tu Veut"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 33.000
+
 Casquettebleu.Name = "Casquette bleu"
-Casquettebleu.Parent = OutfitCaTalog
+Casquettebleu.Parent = Outfitcatalog
 Casquettebleu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Casquettebleu.Position = UDim2.new(0.337984502, 0, 0.101671308, 0)
-Casquettebleu.Size = UDim2.new(0, 200, 0, 50)
+Casquettebleu.Position = UDim2.new(-0.00232956186, 0, 0.0152507918, 0)
+Casquettebleu.Size = UDim2.new(0, 191, 0, 50)
 Casquettebleu.Font = Enum.Font.SourceSans
 Casquettebleu.Text = "Casquette bleu"
 Casquettebleu.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -230,53 +434,44 @@ Casquettebleu.MouseButton1Down:connect(function()
 		[2] = 6810609456
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
-casquetterose.Name = "casquette rose"
-casquetterose.Parent = OutfitCaTalog
-casquetterose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-casquetterose.Position = UDim2.new(0.662015498, 0, 0.101671308, 0)
-casquetterose.Size = UDim2.new(0, 200, 0, 50)
-casquetterose.Font = Enum.Font.SourceSans
-casquetterose.Text = "casquette rose"
-casquetterose.TextColor3 = Color3.fromRGB(0, 0, 0)
-casquetterose.TextSize = 14.000
-casquetterose.MouseButton1Down:connect(function()
+CloseNoMotorGui.Name = "CloseNoMotorGui"
+CloseNoMotorGui.Parent = Outfitcatalog
+CloseNoMotorGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CloseNoMotorGui.BackgroundTransparency = 0.950
+CloseNoMotorGui.Position = UDim2.new(0.741418064, 0, -0.0747377425, 0)
+CloseNoMotorGui.Size = UDim2.new(0, 88, 0, 50)
+CloseNoMotorGui.Font = Enum.Font.GothamBlack
+CloseNoMotorGui.Text = "X"
+CloseNoMotorGui.TextColor3 = Color3.fromRGB(255, 0, 0)
+CloseNoMotorGui.TextSize = 30.000
+
+Durag.Name = "Durag"
+Durag.Parent = Outfitcatalog
+Durag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Durag.Position = UDim2.new(0.492434829, 0, 0.789455295, 0)
+Durag.Size = UDim2.new(0, 164, 0, 42)
+Durag.Font = Enum.Font.SourceSans
+Durag.Text = "Durag"
+Durag.TextColor3 = Color3.fromRGB(0, 0, 0)
+Durag.TextSize = 14.000
+Durag.MouseButton1Down:connect(function()
 
 	local args = {
 		[1] = "wear",
-		[2] = 7128720860
+		[2] = 7028762683
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-
-locks.Name = "locks"
-locks.Parent = OutfitCaTalog
-locks.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-locks.Position = UDim2.new(0, 0, 0.211699158, 0)
-locks.Size = UDim2.new(0, 200, 0, 50)
-locks.Font = Enum.Font.SourceSans
-locks.Text = "locks"
-locks.TextColor3 = Color3.fromRGB(0, 0, 0)
-locks.TextSize = 14.000
-locks.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 6983883787
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 waves.Name = "waves"
-waves.Parent = OutfitCaTalog
+waves.Parent = Outfitcatalog
 waves.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-waves.Position = UDim2.new(0.337984502, 0, 0.211699158, 0)
-waves.Size = UDim2.new(0, 200, 0, 50)
+waves.Position = UDim2.new(0.508141637, 0, 0.446947813, 0)
+waves.Size = UDim2.new(0, 169, 0, 50)
 waves.Font = Enum.Font.SourceSans
 waves.Text = "waves"
 waves.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -288,238 +483,14 @@ waves.MouseButton1Down:connect(function()
 		[2] = 5153072488
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-Blackmessyhair.Name = "Black messy hair"
-Blackmessyhair.Parent = OutfitCaTalog
-Blackmessyhair.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Blackmessyhair.Position = UDim2.new(0.662015498, 0, 0.211699158, 0)
-Blackmessyhair.Size = UDim2.new(0, 200, 0, 50)
-Blackmessyhair.Font = Enum.Font.SourceSans
-Blackmessyhair.Text = "Black Messy hair"
-Blackmessyhair.TextColor3 = Color3.fromRGB(0, 0, 0)
-Blackmessyhair.TextSize = 14.000
-Blackmessyhair.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 7183785281
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-
-tnnike.Name = "tn + nike"
-tnnike.Parent = OutfitCaTalog
-tnnike.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-tnnike.Position = UDim2.new(0.662015498, 0, 0.321727008, 0)
-tnnike.Size = UDim2.new(0, 200, 0, 50)
-tnnike.Font = Enum.Font.SourceSans
-tnnike.Text = "Tn + nike"
-tnnike.TextColor3 = Color3.fromRGB(0, 0, 0)
-tnnike.TextSize = 14.000
-tnnike.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 9081182159
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-
-basnikebleu.Name = "bas nike bleu"
-basnikebleu.Parent = OutfitCaTalog
-basnikebleu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-basnikebleu.Position = UDim2.new(0.337984502, 0, 0.321727008, 0)
-basnikebleu.Size = UDim2.new(0, 200, 0, 50)
-basnikebleu.Font = Enum.Font.SourceSans
-basnikebleu.Text = "bas nike bleu"
-basnikebleu.TextColor3 = Color3.fromRGB(0, 0, 0)
-basnikebleu.TextSize = 14.000
-basnikebleu.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 8656182616
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-
-pantalonjordannoir.Name = "pantalon jordan noir"
-pantalonjordannoir.Parent = OutfitCaTalog
-pantalonjordannoir.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-pantalonjordannoir.Position = UDim2.new(0, 0, 0.321727008, 0)
-pantalonjordannoir.Size = UDim2.new(0, 200, 0, 50)
-pantalonjordannoir.Font = Enum.Font.SourceSans
-pantalonjordannoir.Text = "pantalon jordan noir"
-pantalonjordannoir.TextColor3 = Color3.fromRGB(0, 0, 0)
-pantalonjordannoir.TextSize = 14.000
-pantalonjordannoir.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 7037524219
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-Jspquoimettre.Parent = OutfitCaTalog
-Jspquoimettre.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Jspquoimettre.BackgroundTransparency = 0.750
-Jspquoimettre.Position = UDim2.new(0, 0, 0.020536229, 0)
-Jspquoimettre.Size = UDim2.new(0, 627, 0, 50)
-Jspquoimettre.Font = Enum.Font.SourceSans
-Jspquoimettre.Text = "Choisie L'outfit que tu veut Que Tu Veut"
-Jspquoimettre.TextColor3 = Color3.fromRGB(0, 0, 0)
-Jspquoimettre.TextSize = 33.000
-
-
-Juventusronaldo.Name = "Juventus ronaldo"
-Juventusronaldo.Parent = OutfitCaTalog
-Juventusronaldo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Juventusronaldo.Position = UDim2.new(0.658914745, 0, 0.430362105, 0)
-Juventusronaldo.Size = UDim2.new(0, 200, 0, 50)
-Juventusronaldo.Font = Enum.Font.SourceSans
-Juventusronaldo.Text = "Juventus Ronaldo T-Shirt"
-Juventusronaldo.TextColor3 = Color3.fromRGB(0, 0, 0)
-Juventusronaldo.TextSize = 14.000
-Juventusronaldo.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 4894026758
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-hautnikebleu.Name = "haut nike bleu"
-hautnikebleu.Parent = OutfitCaTalog
-hautnikebleu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-hautnikebleu.Position = UDim2.new(0.330232561, 0, 0.430362105, 0)
-hautnikebleu.Size = UDim2.new(0, 200, 0, 50)
-hautnikebleu.Font = Enum.Font.SourceSans
-hautnikebleu.Text = "Haut nike bleu"
-hautnikebleu.TextColor3 = Color3.fromRGB(0, 0, 0)
-hautnikebleu.TextSize = 14.000
-hautnikebleu.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 8656178062
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-maillotdebasket.Name = "maillot de basket"
-maillotdebasket.Parent = OutfitCaTalog
-maillotdebasket.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-maillotdebasket.Position = UDim2.new(0, 0, 0.430362105, 0)
-maillotdebasket.Size = UDim2.new(0, 200, 0, 50)
-maillotdebasket.Font = Enum.Font.SourceSans
-maillotdebasket.Text = "Maillot de basket Noir"
-maillotdebasket.TextColor3 = Color3.fromRGB(0, 0, 0)
-maillotdebasket.TextSize = 14.000
-maillotdebasket.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 6792183911
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-casquettegucci.Name = "casquette gucci"
-casquettegucci.Parent = OutfitCaTalog
-casquettegucci.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-casquettegucci.Position = UDim2.new(0.662015498, 0, 0.543175459, 0)
-casquettegucci.Size = UDim2.new(0, 200, 0, 50)
-casquettegucci.Font = Enum.Font.SourceSans
-casquettegucci.Text = "Casquette (Gucci)"
-casquettegucci.TextColor3 = Color3.fromRGB(0, 0, 0)
-casquettegucci.TextSize = 14.000
-casquettegucci.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 5314363790
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-
-end)
-
-casqeuttenwaralenver.Name = "casqeutte nwar a l'enver"
-casqeuttenwaralenver.Parent = OutfitCaTalog
-casqeuttenwaralenver.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-casqeuttenwaralenver.Position = UDim2.new(0.330232561, 0, 0.543175459, 0)
-casqeuttenwaralenver.Size = UDim2.new(0, 200, 0, 50)
-casqeuttenwaralenver.Font = Enum.Font.SourceSans
-casqeuttenwaralenver.Text = "Casquette Nwar a l'envers"
-casqeuttenwaralenver.TextColor3 = Color3.fromRGB(0, 0, 0)
-casqeuttenwaralenver.TextSize = 14.000
-casqeuttenwaralenver.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 6774189421
-	}
-
-game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-bandanaheadband.Name = "bandana + headband"
-bandanaheadband.Parent = OutfitCaTalog
-bandanaheadband.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-bandanaheadband.Position = UDim2.new(0, 0, 0.543175459, 0)
-bandanaheadband.Size = UDim2.new(0, 200, 0, 50)
-bandanaheadband.Font = Enum.Font.SourceSans
-bandanaheadband.Text = "Bandana w/ Headband Black"
-bandanaheadband.TextColor3 = Color3.fromRGB(0, 0, 0)
-bandanaheadband.TextSize = 14.000
-bandanaheadband.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 8918779343
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
-end)
-
-dorplatine.Name = "dor & platine"
-dorplatine.Parent = OutfitCaTalog
-dorplatine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-dorplatine.Position = UDim2.new(0, 0, 0.653203309, 0)
-dorplatine.Size = UDim2.new(0, 200, 0, 50)
-dorplatine.Font = Enum.Font.SourceSans
-dorplatine.Text = "Dor & Platine shirt"
-dorplatine.TextColor3 = Color3.fromRGB(0, 0, 0)
-dorplatine.TextSize = 14.000
-dorplatine.MouseButton1Down:connect(function()
-
-	local args = {
-		[1] = "wear",
-		[2] = 5806385513
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 vestenikesacoche.Name = "veste nike + sacoche"
-vestenikesacoche.Parent = OutfitCaTalog
+vestenikesacoche.Parent = Outfitcatalog
 vestenikesacoche.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-vestenikesacoche.Position = UDim2.new(0.337984502, 0, 0.653203309, 0)
-vestenikesacoche.Size = UDim2.new(0, 200, 0, 50)
+vestenikesacoche.Position = UDim2.new(-0.00232956163, 0, 0.561010778, 0)
+vestenikesacoche.Size = UDim2.new(0, 191, 0, 50)
 vestenikesacoche.Font = Enum.Font.SourceSans
 vestenikesacoche.Text = "Veste Nike + Sacoche gucci"
 vestenikesacoche.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -531,965 +502,302 @@ vestenikesacoche.MouseButton1Down:connect(function()
 		[2] = 7404331902
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
-NoShirtButton.Name = "NoShirtButton"
-NoShirtButton.Parent = OutfitCaTalog
-NoShirtButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoShirtButton.Position = UDim2.new(0.662015498, 0, 0.653203309, 0)
-NoShirtButton.Size = UDim2.new(0, 200, 0, 50)
-NoShirtButton.Font = Enum.Font.SourceSans
-NoShirtButton.Text = "No-Shirt"
-NoShirtButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-NoShirtButton.TextSize = 14.000
-NoShirtButton.MouseButton1Down:connect(function()
+pantalonjordannoir.Name = "pantalon jordan noir"
+pantalonjordannoir.Parent = Outfitcatalog
+pantalonjordannoir.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pantalonjordannoir.Position = UDim2.new(0.018324608, 0, 0.891388476, 0)
+pantalonjordannoir.Size = UDim2.new(0, 151, 0, 59)
+pantalonjordannoir.Font = Enum.Font.SourceSans
+pantalonjordannoir.Text = "pantalon jordan noir"
+pantalonjordannoir.TextColor3 = Color3.fromRGB(0, 0, 0)
+pantalonjordannoir.TextSize = 14.000
+pantalonjordannoir.MouseButton1Down:connect(function()
 
 	local args = {
 		[1] = "wear",
-		[2] = 7618925899
+		[2] = 7037524219
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
-NoPantButton.Name = "NoPantButton"
-NoPantButton.Parent = OutfitCaTalog
-NoPantButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoPantButton.Position = UDim2.new(0.662015498, 0, 0.756267369, 0)
-NoPantButton.Size = UDim2.new(0, 200, 0, 50)
-NoPantButton.Font = Enum.Font.SourceSans
-NoPantButton.Text = "No-Pant"
-NoPantButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-NoPantButton.TextSize = 14.000
-NoPantButton.MouseButton1Down:connect(function()
+tnnike.Name = "tn + nike"
+tnnike.Parent = Outfitcatalog
+tnnike.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tnnike.Position = UDim2.new(0.518612683, 0, 0.225337595, 0)
+tnnike.Size = UDim2.new(0, 166, 0, 50)
+tnnike.Font = Enum.Font.SourceSans
+tnnike.Text = "Tn + nike"
+tnnike.TextColor3 = Color3.fromRGB(0, 0, 0)
+tnnike.TextSize = 14.000
+tnnike.MouseButton1Down:connect(function()
 
 	local args = {
 		[1] = "wear",
-		[2] = 8522494824
+		[2] = 9081182159
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
-chignonblond.Name = "chignon blond"
-chignonblond.Parent = OutfitCaTalog
-chignonblond.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-chignonblond.Position = UDim2.new(0.336434186, 0, 0.756267369, 0)
-chignonblond.Size = UDim2.new(0, 200, 0, 50)
-chignonblond.Font = Enum.Font.SourceSans
-chignonblond.Text = "Chignon blond"
-chignonblond.TextColor3 = Color3.fromRGB(0, 0, 0)
-chignonblond.TextSize = 14.000
-chignonblond.MouseButton1Down:connect(function()
+maillotdebasket.Name = "maillot de basket"
+maillotdebasket.Parent = Outfitcatalog
+maillotdebasket.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+maillotdebasket.Position = UDim2.new(0, 0, 0.1126104, 0)
+maillotdebasket.Size = UDim2.new(0, 189, 0, 50)
+maillotdebasket.Font = Enum.Font.SourceSans
+maillotdebasket.Text = "Maillot de basket Noir"
+maillotdebasket.TextColor3 = Color3.fromRGB(0, 0, 0)
+maillotdebasket.TextSize = 14.000
+maillotdebasket.MouseButton1Down:connect(function()
 
 	local args = {
 		[1] = "wear",
-		[2] = 8996212761
+		[2] = 6792183911
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
-cheveuxblond.Name = "cheveux blond"
-cheveuxblond.Parent = OutfitCaTalog
-cheveuxblond.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-cheveuxblond.Position = UDim2.new(0, 0, 0.756267369, 0)
-cheveuxblond.Size = UDim2.new(0, 200, 0, 50)
-cheveuxblond.Font = Enum.Font.SourceSans
-cheveuxblond.Text = "Blonde"
-cheveuxblond.TextColor3 = Color3.fromRGB(0, 0, 0)
-cheveuxblond.TextSize = 14.000
-cheveuxblond.MouseButton1Down:connect(function()
+
+SofianeSmile.Name = "SofianeSmile"
+SofianeSmile.Parent = Outfitcatalog
+SofianeSmile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SofianeSmile.Position = UDim2.new(0.5075652, 0, 0.664352238, 0)
+SofianeSmile.Size = UDim2.new(0, 167, 0, 50)
+SofianeSmile.Font = Enum.Font.SourceSans
+SofianeSmile.Text = "SofianeSmile"
+SofianeSmile.TextColor3 = Color3.fromRGB(0, 0, 0)
+SofianeSmile.TextSize = 14.000
+SofianeSmile.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "wear",
+		[2] = 6093231998
+	}
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+
+end)
+
+bandanaheadband.Name = "bandana + headband"
+bandanaheadband.Parent = Outfitcatalog
+bandanaheadband.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+bandanaheadband.Position = UDim2.new(0, 0, 0.334843457, 0)
+bandanaheadband.Size = UDim2.new(0, 190, 0, 50)
+bandanaheadband.Font = Enum.Font.SourceSans
+bandanaheadband.Text = "Bandana w/ Headband Black"
+bandanaheadband.TextColor3 = Color3.fromRGB(0, 0, 0)
+bandanaheadband.TextSize = 14.000
+bandanaheadband.MouseButton1Down:connect(function()
 
 	local args = {
 		[1] = "wear",
-		[2] = 7284206648
+		[2] = 8918779343
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
-lunettesblanche.Name = "lunettes blanche"
-lunettesblanche.Parent = OutfitCaTalog
-lunettesblanche.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-lunettesblanche.Position = UDim2.new(0, 0, 0.863509715, 0)
-lunettesblanche.Size = UDim2.new(0, 200, 0, 50)
-lunettesblanche.Font = Enum.Font.SourceSans
-lunettesblanche.Text = "Lunettes Blanche"
-lunettesblanche.TextColor3 = Color3.fromRGB(0, 0, 0)
-lunettesblanche.TextSize = 14.000
-lunettesblanche.MouseButton1Down:connect(function()
+
+Blackmessyhair.Name = "Black messy hair"
+Blackmessyhair.Parent = Outfitcatalog
+Blackmessyhair.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Blackmessyhair.Position = UDim2.new(0.036649216, 0, 0.848704994, 0)
+Blackmessyhair.Size = UDim2.new(0, 151, 0, 28)
+Blackmessyhair.Font = Enum.Font.SourceSans
+Blackmessyhair.Text = "Black Messy hair"
+Blackmessyhair.TextColor3 = Color3.fromRGB(0, 0, 0)
+Blackmessyhair.TextSize = 14.000
+Blackmessyhair.MouseButton1Down:connect(function()
+	local args = {
+		[1] = "wear",
+		[2] = 7183785281
+	}
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+end)
+
+basnikebleu.Name = "bas nike bleu"
+basnikebleu.Parent = Outfitcatalog
+basnikebleu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+basnikebleu.Position = UDim2.new(0.518612683, 0, 0.113773838, 0)
+basnikebleu.Size = UDim2.new(0, 166, 0, 50)
+basnikebleu.Font = Enum.Font.SourceSans
+basnikebleu.Text = "bas nike bleu"
+basnikebleu.TextColor3 = Color3.fromRGB(0, 0, 0)
+basnikebleu.TextSize = 14.000
+basnikebleu.MouseButton1Down:connect(function()
 
 	local args = {
 		[1] = "wear",
-		[2] = 7246171208
+		[2] = 8656182616
 	}
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
+casqeuttenwaralenver.Name = "casqeutte nwar a l'enver"
+casqeuttenwaralenver.Parent = Outfitcatalog
+casqeuttenwaralenver.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+casqeuttenwaralenver.Position = UDim2.new(0.442797929, 0, 0.901275337, 0)
+casqeuttenwaralenver.Size = UDim2.new(0, 183, 0, 47)
+casqeuttenwaralenver.Font = Enum.Font.SourceSans
+casqeuttenwaralenver.Text = "Casquette Nwar a l'envers"
+casqeuttenwaralenver.TextColor3 = Color3.fromRGB(0, 0, 0)
+casqeuttenwaralenver.TextSize = 14.000
+casqeuttenwaralenver.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "wear",
+		[2] = 6774189421
+	}
 
-tenueecoliere.Name = "tenue ecoliere"
-tenueecoliere.Parent = OutfitCaTalog
-tenueecoliere.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-tenueecoliere.Position = UDim2.new(0.337984502, 0, 0.863509715, 0)
-tenueecoliere.Size = UDim2.new(0, 200, 0, 50)
-tenueecoliere.Font = Enum.Font.SourceSans
-tenueecoliere.Text = "Tenues école ( haut)"
-tenueecoliere.TextColor3 = Color3.fromRGB(0, 0, 0)
-tenueecoliere.TextSize = 14.000
-tenueecoliere.MouseButton1Down:connect(function()
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+end)
+
+casquettegucci.Name = "casquette gucci"
+casquettegucci.Parent = Outfitcatalog
+casquettegucci.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+casquettegucci.Position = UDim2.new(0.518036366, 0, 0.5608446, 0)
+casquettegucci.Size = UDim2.new(0, 166, 0, 50)
+casquettegucci.Font = Enum.Font.SourceSans
+casquettegucci.Text = "Casquette (Gucci)"
+casquettegucci.TextColor3 = Color3.fromRGB(0, 0, 0)
+casquettegucci.TextSize = 14.000
+casquettegucci.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "wear",
+		[2] = 5314363790
+	}
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+end)
+
+casquetterose.Name = "casquette rose"
+casquetterose.Parent = Outfitcatalog
+casquetterose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+casquetterose.Position = UDim2.new(0.520654142, 0, 0.0152507918, 0)
+casquetterose.Size = UDim2.new(0, 166, 0, 50)
+casquetterose.Font = Enum.Font.SourceSans
+casquetterose.Text = "casquette rose"
+casquetterose.TextColor3 = Color3.fromRGB(0, 0, 0)
+casquetterose.TextSize = 14.000
+casquetterose.MouseButton1Down:connect(function()
 
 	local args = {
 		[1] = "wear",
-		[2] = 4707960410
+		[2] = 7128720860
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
-Collant.Name = "Collant"
-Collant.Parent = OutfitCaTalog
-Collant.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Collant.Position = UDim2.new(0.662015498, 0, 0.863509715, 0)
-Collant.Size = UDim2.new(0, 200, 0, 50)
-Collant.Font = Enum.Font.SourceSans
-Collant.Text = "Collant"
-Collant.TextColor3 = Color3.fromRGB(0, 0, 0)
-Collant.TextSize = 14.000
-Collant.MouseButton1Down:connect(function()
+dorplatine.Name = "dor & platine"
+dorplatine.Parent = Outfitcatalog
+dorplatine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dorplatine.Position = UDim2.new(0, 0, 0.660685539, 0)
+dorplatine.Size = UDim2.new(0, 190, 0, 50)
+dorplatine.Font = Enum.Font.SourceSans
+dorplatine.Text = "Dor & Platine shirt"
+dorplatine.TextColor3 = Color3.fromRGB(0, 0, 0)
+dorplatine.TextSize = 14.000
+dorplatine.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "wear",
+		[2] = 5806385513
+	}
+
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+end)
+
+Juventusronaldo.Name = "Juventus ronaldo"
+Juventusronaldo.Parent = Outfitcatalog
+Juventusronaldo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Juventusronaldo.Position = UDim2.new(-0.00338888913, 0, 0.447453022, 0)
+Juventusronaldo.Size = UDim2.new(0, 190, 0, 50)
+Juventusronaldo.Font = Enum.Font.SourceSans
+Juventusronaldo.Text = "Juventus Ronaldo T-Shirt"
+Juventusronaldo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Juventusronaldo.TextSize = 14.000
+Juventusronaldo.MouseButton1Down:connect(function()
 
 	local args = {
 		[1] = "wear",
-		[2] = 6256942218
+		[2] = 4894026758
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Updat18eAvata18r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
-NoMotorVehiclesCatalog.Name = "NoMotorVehiclesCatalog"
-NoMotorVehiclesCatalog.Parent = Gui
-NoMotorVehiclesCatalog.Active = true
-NoMotorVehiclesCatalog.Visible = false
-NoMotorVehiclesCatalog.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-NoMotorVehiclesCatalog.BorderSizePixel = 0
-NoMotorVehiclesCatalog.Position = UDim2.new(0.106353588, 0, 0.164345399, 0)
-NoMotorVehiclesCatalog.Size = UDim2.new(0, 645, 0, 300)
+hautnikebleu.Name = "haut nike bleu"
+hautnikebleu.Parent = Outfitcatalog
+hautnikebleu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hautnikebleu.Position = UDim2.new(0.518612683, 0, 0.335920841, 0)
+hautnikebleu.Size = UDim2.new(0, 166, 0, 50)
+hautnikebleu.Font = Enum.Font.SourceSans
+hautnikebleu.Text = "Haut nike bleu"
+hautnikebleu.TextColor3 = Color3.fromRGB(0, 0, 0)
+hautnikebleu.TextSize = 14.000
+hautnikebleu.MouseButton1Down:connect(function()
 
-TextLabel_2.Parent = NoMotorVehiclesCatalog
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 0.750
-TextLabel_2.Position = UDim2.new(0, 0, 0.020536229, 0)
-TextLabel_2.Size = UDim2.new(0, 627, 0, 50)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Choisie La Musique Que Tu Veut"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextSize = 33.000
-
-GazoHS.Name = "Gazo - H&S"
-GazoHS.Parent = NoMotorVehiclesCatalog
-GazoHS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GazoHS.BackgroundTransparency = 0.750
-GazoHS.Position = UDim2.new(0, 0, 0.13231197, 0)
-GazoHS.Size = UDim2.new(0, 200, 0, 50)
-GazoHS.Font = Enum.Font.SourceSans
-GazoHS.Text = "Gazo - Haine & Sex"
-GazoHS.TextColor3 = Color3.fromRGB(0, 0, 0)
-GazoHS.TextSize = 23.000
-GazoHS.MouseButton1Down:connect(function()
 	local args = {
-		[1] = "PickingScooterMusicText",
-		[2] = "6966932205"
+		[1] = "wear",
+		[2] = 8656178062
 	}
 
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
-
-JulBlk.Name = "Jul Blk"
-JulBlk.Parent = NoMotorVehiclesCatalog
-JulBlk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-JulBlk.BackgroundTransparency = 0.750
-JulBlk.Position = UDim2.new(0.348837227, 0, 0.13231197, 0)
-JulBlk.Size = UDim2.new(0, 200, 0, 50)
-JulBlk.Font = Enum.Font.SourceSans
-JulBlk.Text = "Jul - m'en bat les couilles"
-JulBlk.TextColor3 = Color3.fromRGB(0, 0, 0)
-JulBlk.TextSize = 23.000
-JulBlk.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingScooterMusicText",
-		[2] = "7017598318"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
-
-end)
-
-NapsKiffance.Name = "Naps Kiffance"
-NapsKiffance.Parent = NoMotorVehiclesCatalog
-NapsKiffance.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NapsKiffance.BackgroundTransparency = 0.750
-NapsKiffance.Position = UDim2.new(0.693023264, 0, 0.132540792, 0)
-NapsKiffance.Size = UDim2.new(0, 180, 0, 50)
-NapsKiffance.Font = Enum.Font.SourceSans
-NapsKiffance.Text = "Naps - La Kiffance"
-NapsKiffance.TextColor3 = Color3.fromRGB(0, 0, 0)
-NapsKiffance.TextSize = 23.000
-NapsKiffance.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingScooterMusicText",
-		[2] = "6950906321"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
-end)
-
-IskLebillet.Name = "Isk - Le billet"
-IskLebillet.Parent = NoMotorVehiclesCatalog
-IskLebillet.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-IskLebillet.BackgroundTransparency = 0.750
-IskLebillet.Position = UDim2.new(0.693023264, 0, 0.256496221, 0)
-IskLebillet.Size = UDim2.new(0, 180, 0, 50)
-IskLebillet.Font = Enum.Font.SourceSans
-IskLebillet.Text = "ISK - Le Billet"
-IskLebillet.TextColor3 = Color3.fromRGB(0, 0, 0)
-IskLebillet.TextSize = 23.000
-IskLebillet.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingScooterMusicText",
-		[2] = "6950593634"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
-end)
-
-gazotchin.Name = "gazo tchin"
-gazotchin.Parent = NoMotorVehiclesCatalog
-gazotchin.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-gazotchin.BackgroundTransparency = 0.750
-gazotchin.Position = UDim2.new(0.348837227, 0, 0.257660151, 0)
-gazotchin.Size = UDim2.new(0, 200, 0, 50)
-gazotchin.Font = Enum.Font.SourceSans
-gazotchin.Text = "GAZO - TCHIN"
-gazotchin.TextColor3 = Color3.fromRGB(0, 0, 0)
-gazotchin.TextSize = 23.000
-gazotchin.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingScooterMusicText",
-		[2] = "6950646907"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
-end)
-
-luciddream.Name = "lucid dream"
-luciddream.Parent = NoMotorVehiclesCatalog
-luciddream.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-luciddream.BackgroundTransparency = 0.750
-luciddream.Position = UDim2.new(-0.00155035779, 0, 0.257660151, 0)
-luciddream.Size = UDim2.new(0, 200, 0, 50)
-luciddream.Font = Enum.Font.SourceSans
-luciddream.Text = "Lucid Dreams"
-luciddream.TextColor3 = Color3.fromRGB(0, 0, 0)
-luciddream.TextSize = 23.000
-luciddream.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingScooterMusicText",
-		[2] = "6879637916"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
-end)
-
-DtfMg.Name = "Dtf -Mg"
-DtfMg.Parent = NoMotorVehiclesCatalog
-DtfMg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DtfMg.BackgroundTransparency = 0.750
-DtfMg.Position = UDim2.new(-0.00155035779, 0, 0.395543158, 0)
-DtfMg.Size = UDim2.new(0, 200, 0, 50)
-DtfMg.Font = Enum.Font.SourceSans
-DtfMg.Text = "DTF - Me Gusta"
-DtfMg.TextColor3 = Color3.fromRGB(0, 0, 0)
-DtfMg.TextSize = 23.000
-DtfMg.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingScooterMusicText",
-		[2] = "9264587845"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18NoMoto18rVehicle18s"):FireServer(unpack(args))
-end)
-
-Soon.Name = "Soon"
-Soon.Parent = NoMotorVehiclesCatalog
-Soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Soon.BackgroundTransparency = 0.750
-Soon.Position = UDim2.new(0.34728688, 0, 0.395543158, 0)
-Soon.Size = UDim2.new(0, 200, 0, 50)
-Soon.Font = Enum.Font.SourceSans
-Soon.Text = "Soon......."
-Soon.TextColor3 = Color3.fromRGB(0, 0, 0)
-Soon.TextSize = 23.000
-
-Soon_2.Name = "Soon"
-Soon_2.Parent = NoMotorVehiclesCatalog
-Soon_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Soon_2.BackgroundTransparency = 0.750
-Soon_2.Position = UDim2.new(0.693023264, 0, 0.39577198, 0)
-Soon_2.Size = UDim2.new(0, 180, 0, 50)
-Soon_2.Font = Enum.Font.SourceSans
-Soon_2.Text = "Soon......."
-Soon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-Soon_2.TextSize = 23.000
-
-CloseNoMotorGui.Name = "CloseNoMotorGui"
-CloseNoMotorGui.Parent = NoMotorVehiclesCatalog
-CloseNoMotorGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CloseNoMotorGui.BackgroundTransparency = 0.950
-CloseNoMotorGui.Position = UDim2.new(0.835658908, 0, 0.0205003545, 0)
-CloseNoMotorGui.Size = UDim2.new(0, 88, 0, 50)
-CloseNoMotorGui.Font = Enum.Font.GothamBlack
-CloseNoMotorGui.Text = "X"
-CloseNoMotorGui.TextColor3 = Color3.fromRGB(255, 0, 0)
-CloseNoMotorGui.TextSize = 30.000
-CloseNoMotorGui.MouseButton1Down:connect(function()
-	NoMotorVehiclesCatalog.Visible = false
-	OutfitButton.Visible = true
-end)
-
-
-MotorVehiclesCatalog.Name = "MotorVehiclesCatalog"
-MotorVehiclesCatalog.Parent = Gui
-MotorVehiclesCatalog.Active = true
-MotorVehiclesCatalog.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-MotorVehiclesCatalog.BorderSizePixel = 0
-MotorVehiclesCatalog.Position = UDim2.new(0.106353588, 0, 0.164345399, 0)
-MotorVehiclesCatalog.Size = UDim2.new(0, 645, 0, 300)
-MotorVehiclesCatalog.Visible = false
-
-TextLabel_3.Parent = MotorVehiclesCatalog
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 0.750
-TextLabel_3.Position = UDim2.new(0, 0, 0.020536229, 0)
-TextLabel_3.Size = UDim2.new(0, 627, 0, 50)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Choisie La Musique Que Tu Veut"
-TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.TextSize = 33.000
-
-GazoHS_2.Name = "Gazo - H&S"
-GazoHS_2.Parent = MotorVehiclesCatalog
-GazoHS_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-GazoHS_2.BackgroundTransparency = 0.750
-GazoHS_2.Position = UDim2.new(0, 0, 0.13231197, 0)
-GazoHS_2.Size = UDim2.new(0, 200, 0, 50)
-GazoHS_2.Font = Enum.Font.SourceSans
-GazoHS_2.Text = "Gazo - Haine & Sex"
-GazoHS_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-GazoHS_2.TextSize = 23.000
-GazoHS_2.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingCarMusicText",
-		[2] = "6966932205"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
-end)
-
-JulBlk_2.Name = "Jul Blk"
-JulBlk_2.Parent = MotorVehiclesCatalog
-JulBlk_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-JulBlk_2.BackgroundTransparency = 0.750
-JulBlk_2.Position = UDim2.new(0.348837227, 0, 0.13231197, 0)
-JulBlk_2.Size = UDim2.new(0, 200, 0, 50)
-JulBlk_2.Font = Enum.Font.SourceSans
-JulBlk_2.Text = "Jul - m'en bat les couilles"
-JulBlk_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-JulBlk_2.TextSize = 23.000
-JulBlk_2.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingCarMusicText",
-		[2] = "7017598318"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
-end)
-
-NapsKiffance_2.Name = "Naps Kiffance"
-NapsKiffance_2.Parent = MotorVehiclesCatalog
-NapsKiffance_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NapsKiffance_2.BackgroundTransparency = 0.750
-NapsKiffance_2.Position = UDim2.new(0.693023264, 0, 0.132540792, 0)
-NapsKiffance_2.Size = UDim2.new(0, 180, 0, 50)
-NapsKiffance_2.Font = Enum.Font.SourceSans
-NapsKiffance_2.Text = "Naps - La Kiffance"
-NapsKiffance_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-NapsKiffance_2.TextSize = 23.000
-NapsKiffance_2.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingCarMusicText",
-		[2] = "6950906321"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
-end)
-
-IskLebillet_2.Name = "Isk - Le billet"
-IskLebillet_2.Parent = MotorVehiclesCatalog
-IskLebillet_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-IskLebillet_2.BackgroundTransparency = 0.750
-IskLebillet_2.Position = UDim2.new(0.693023264, 0, 0.256496221, 0)
-IskLebillet_2.Size = UDim2.new(0, 180, 0, 50)
-IskLebillet_2.Font = Enum.Font.SourceSans
-IskLebillet_2.Text = "ISK - Le Billet"
-IskLebillet_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-IskLebillet_2.TextSize = 23.000
-IskLebillet_2.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingCarMusicText",
-		[2] = "6950593634"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
-end)
-
-gazotchin_2.Name = "gazo tchin"
-gazotchin_2.Parent = MotorVehiclesCatalog
-gazotchin_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-gazotchin_2.BackgroundTransparency = 0.750
-gazotchin_2.Position = UDim2.new(0.348837227, 0, 0.257660151, 0)
-gazotchin_2.Size = UDim2.new(0, 200, 0, 50)
-gazotchin_2.Font = Enum.Font.SourceSans
-gazotchin_2.Text = "GAZO - TCHIN"
-gazotchin_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-gazotchin_2.TextSize = 23.000
-gazotchin_2.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingCarMusicText",
-		[2] = "6950646907"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
-end)
-
-luciddream_2.Name = "lucid dream"
-luciddream_2.Parent = MotorVehiclesCatalog
-luciddream_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-luciddream_2.BackgroundTransparency = 0.750
-luciddream_2.Position = UDim2.new(-0.00155035779, 0, 0.257660151, 0)
-luciddream_2.Size = UDim2.new(0, 200, 0, 50)
-luciddream_2.Font = Enum.Font.SourceSans
-luciddream_2.Text = "Lucid Dreams"
-luciddream_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-luciddream_2.TextSize = 23.000
-luciddream_2.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingCarMusicText",
-		[2] = "6879637916"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
-end)
-
-
-DtfMg_2.Name = "Dtf -Mg"
-DtfMg_2.Parent = MotorVehiclesCatalog
-DtfMg_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DtfMg_2.BackgroundTransparency = 0.750
-DtfMg_2.Position = UDim2.new(-0.00155035779, 0, 0.395543158, 0)
-DtfMg_2.Size = UDim2.new(0, 200, 0, 50)
-DtfMg_2.Font = Enum.Font.SourceSans
-DtfMg_2.Text = "DTF - Me Gusta"
-DtfMg_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-DtfMg_2.TextSize = 23.000
-DtfMg_2.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "PickingCarMusicText",
-		[2] = "9264587845"
-	}
-
-	game:GetService("ReplicatedStorage").H11.FD.SS.ED:FindFirstChild("18Player18sCa18r"):FireServer(unpack(args))
-end)
-
-Soon_3.Name = "Soon"
-Soon_3.Parent = MotorVehiclesCatalog
-Soon_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Soon_3.BackgroundTransparency = 0.750
-Soon_3.Position = UDim2.new(0.34728688, 0, 0.395543158, 0)
-Soon_3.Size = UDim2.new(0, 200, 0, 50)
-Soon_3.Font = Enum.Font.SourceSans
-Soon_3.Text = "Soon......."
-Soon_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-Soon_3.TextSize = 23.000
-
-Soon_4.Name = "Soon"
-Soon_4.Parent = MotorVehiclesCatalog
-Soon_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Soon_4.BackgroundTransparency = 0.750
-Soon_4.Position = UDim2.new(0.693023264, 0, 0.39577198, 0)
-Soon_4.Size = UDim2.new(0, 180, 0, 50)
-Soon_4.Font = Enum.Font.SourceSans
-Soon_4.Text = "Soon......."
-Soon_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-Soon_4.TextSize = 23.000
-
-CloseCarCatalog.Name = "CloseCarCatalog"
-CloseCarCatalog.Parent = MotorVehiclesCatalog
-CloseCarCatalog.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CloseCarCatalog.BackgroundTransparency = 0.950
-CloseCarCatalog.Position = UDim2.new(0.835658908, 0, 0.0205003545, 0)
-CloseCarCatalog.Size = UDim2.new(0, 88, 0, 50)
-CloseCarCatalog.Font = Enum.Font.GothamBlack
-CloseCarCatalog.Text = "X"
-CloseCarCatalog.TextColor3 = Color3.fromRGB(255, 0, 0)
-CloseCarCatalog.TextSize = 30.000
-CloseCarCatalog.MouseButton1Down:connect(function()
-	MotorVehiclesCatalog.Visible = false
-	OutfitButton.Visible = true
-end)
-
-CloseGui.Name = "CloseGui"
-CloseGui.Parent = Gui
-CloseGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CloseGui.BackgroundTransparency = 0.950
-CloseGui.Position = UDim2.new(0.874332964, 0, 0.0121438084, 0)
-CloseGui.Size = UDim2.new(0, 88, 0, 50)
-CloseGui.Font = Enum.Font.GothamBlack
-CloseGui.Text = "X"
-CloseGui.TextColor3 = Color3.fromRGB(255, 0, 0)
-CloseGui.TextSize = 30.000
-CloseGui.MouseButton1Down:connect(function()
-	OpenGui.Visible = true
-	Gui.Visible = false
-	OutfitButton.Visible = false
-end)
-
-OutfitButton.Name = "OutfitButton"
-OutfitButton.Parent = Gui
-OutfitButton.BackgroundColor3 = Color3.fromRGB(73, 73, 73)
-OutfitButton.BorderSizePixel = 0
-OutfitButton.Position = UDim2.new(0.417127073, 0, 0.754874647, 0)
-OutfitButton.Size = UDim2.new(0, 200, 0, 50)
-OutfitButton.Font = Enum.Font.SourceSans
-OutfitButton.Text = "Outfit Menu"
-OutfitButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-OutfitButton.TextSize = 27.000
-OutfitButton.MouseButton1Down:connect(function()
-	OutfitCaTalog.Visible = true
-	OutfitButton.Visible = false
-	TextLabel_2.Visible = true
-end)
-
-MisBrookhavenButton.Name = "Mis BrookhavenButton"
-MisBrookhavenButton.Parent = Gui
-MisBrookhavenButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MisBrookhavenButton.BackgroundTransparency = 0.800
-MisBrookhavenButton.Position = UDim2.new(0.412983418, 0, 0.378830075, 0)
-MisBrookhavenButton.Size = UDim2.new(0, 200, 0, 50)
-MisBrookhavenButton.Visible = false
-MisBrookhavenButton.Font = Enum.Font.SourceSans
-MisBrookhavenButton.Text = "Soon......"
-MisBrookhavenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-MisBrookhavenButton.TextSize = 20.000
-MisBrookhavenButton.TextWrapped = true
-
-MisBrookhavenButton.Name = "Mis BrookhavenButton"
-MisBrookhavenButton.Parent = Gui
-MisBrookhavenButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MisBrookhavenButton.BackgroundTransparency = 0.800
-MisBrookhavenButton.Position = UDim2.new(0.412983418, 0, 0.378830075, 0)
-MisBrookhavenButton.Size = UDim2.new(0, 200, 0, 50)
-MisBrookhavenButton.Visible = false
-MisBrookhavenButton.Font = Enum.Font.SourceSans
-MisBrookhavenButton.Text = "Soon......"
-MisBrookhavenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-MisBrookhavenButton.TextSize = 20.000
-MisBrookhavenButton.TextWrapped = true
-MisBrookhavenButton.MouseButton1Down:connect(function()
-	MiscBrookhaven.Visible = true
-end)
-
-
-MiscBrookhaven.Name = "MiscBrookhaven"
-MiscBrookhaven.Parent = Gui
-MiscBrookhaven.Active = true
-MiscBrookhaven.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-MiscBrookhaven.BorderSizePixel = 0
-MiscBrookhaven.Position = UDim2.new(0.106353588, 0, 0.164345399, 0)
-MiscBrookhaven.Size = UDim2.new(0, 646, 0, 299)
-MiscBrookhaven.Visible = false
-
-MiscBrookhavenTextLabel.Name = "MiscBrookhavenTextLabel"
-MiscBrookhavenTextLabel.Parent = MiscBrookhaven
-MiscBrookhavenTextLabel.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
-MiscBrookhavenTextLabel.Position = UDim2.new(0, 0, 0.0201899484, 0)
-MiscBrookhavenTextLabel.Size = UDim2.new(0, 627, 0, 50)
-MiscBrookhavenTextLabel.Font = Enum.Font.SourceSans
-MiscBrookhavenTextLabel.Text = "Misc Brookhaven"
-MiscBrookhavenTextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-MiscBrookhavenTextLabel.TextSize = 14.000
-
-ValidateClothe.Name = "ValidateClothe"
-ValidateClothe.Parent = MiscBrookhaven
-ValidateClothe.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
-ValidateClothe.BorderColor3 = Color3.fromRGB(148, 148, 148)
-ValidateClothe.Position = UDim2.new(0.636222899, 0, 0.116374835, 0)
-ValidateClothe.Size = UDim2.new(0, 101, 0, 36)
-ValidateClothe.Font = Enum.Font.SourceSans
-ValidateClothe.Text = "Validate"
-ValidateClothe.TextColor3 = Color3.fromRGB(0, 0, 0)
-ValidateClothe.TextSize = 14.000
-
-Customclothesid.Name = "Custom clothes id"
-Customclothesid.Parent = MiscBrookhaven
-Customclothesid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Customclothesid.BackgroundTransparency = 0.850
-Customclothesid.Position = UDim2.new(0, 0, 0.11513944, 0)
-Customclothesid.Size = UDim2.new(0, 129, 0, 37)
-Customclothesid.Font = Enum.Font.SourceSans
-Customclothesid.Text = "Custom clothes with ID"
-Customclothesid.TextColor3 = Color3.fromRGB(0, 0, 0)
-Customclothesid.TextSize = 14.000
-
-Enterclothesid.Name = "Enter clothes id"
-Enterclothesid.Parent = MiscBrookhaven
-Enterclothesid.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
-Enterclothesid.BorderColor3 = Color3.fromRGB(84, 84, 84)
-Enterclothesid.BorderSizePixel = 0
-Enterclothesid.Position = UDim2.new(0.21207431, 0, 0.114866585, 0)
-Enterclothesid.Size = UDim2.new(0, 264, 0, 38)
-Enterclothesid.Font = Enum.Font.SourceSans
-Enterclothesid.Text = "Enter Clothes ID here .........."
-Enterclothesid.TextColor3 = Color3.fromRGB(0, 0, 0)
-Enterclothesid.TextSize = 14.000
-
-SignCustom.Name = "Sign Custom"
-SignCustom.Parent = MiscBrookhaven
-SignCustom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SignCustom.BackgroundTransparency = 0.850
-SignCustom.Position = UDim2.new(0, 0, 0.202883169, 0)
-SignCustom.Size = UDim2.new(0, 129, 0, 37)
-SignCustom.Font = Enum.Font.SourceSans
-SignCustom.Text = "Sign Custom"
-SignCustom.TextColor3 = Color3.fromRGB(0, 0, 0)
-SignCustom.TextSize = 14.000
-
-Entersigntext.Name = "Enter sign text"
-Entersigntext.Parent = MiscBrookhaven
-Entersigntext.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
-Entersigntext.BorderColor3 = Color3.fromRGB(84, 84, 84)
-Entersigntext.BorderSizePixel = 0
-Entersigntext.Position = UDim2.new(0.21207431, 0, 0.202610314, 0)
-Entersigntext.Size = UDim2.new(0, 264, 0, 38)
-Entersigntext.Font = Enum.Font.SourceSans
-Entersigntext.Text = "Enter Sign TextHere........."
-Entersigntext.TextColor3 = Color3.fromRGB(0, 0, 0)
-Entersigntext.TextSize = 14.000
-
-ValidateSignText.Name = "ValidateSignText"
-ValidateSignText.Parent = MiscBrookhaven
-ValidateSignText.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
-ValidateSignText.BorderColor3 = Color3.fromRGB(148, 148, 148)
-ValidateSignText.Position = UDim2.new(0.636222899, 0, 0.206904083, 0)
-ValidateSignText.Size = UDim2.new(0, 101, 0, 36)
-ValidateSignText.Font = Enum.Font.SourceSans
-ValidateSignText.Text = "Validate"
-ValidateSignText.TextColor3 = Color3.fromRGB(0, 0, 0)
-ValidateSignText.TextSize = 14.000
-
-Raimbowname.Name = "Raimbow name"
-Raimbowname.Parent = MiscBrookhaven
-Raimbowname.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
-Raimbowname.BorderColor3 = Color3.fromRGB(148, 148, 148)
-Raimbowname.Position = UDim2.new(0.122291014, 0, 0.284681737, 0)
-Raimbowname.Size = UDim2.new(0, 123, 0, 36)
-Raimbowname.Font = Enum.Font.SourceSans
-Raimbowname.Text = "Raimbow Background"
-Raimbowname.TextColor3 = Color3.fromRGB(0, 0, 0)
-Raimbowname.TextSize = 14.000
-
-RaimbowText.Name = "Raimbow Text"
-RaimbowText.Parent = MiscBrookhaven
-RaimbowText.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
-RaimbowText.BorderColor3 = Color3.fromRGB(148, 148, 148)
-RaimbowText.Position = UDim2.new(0.538699627, 0, 0.284681737, 0)
-RaimbowText.Size = UDim2.new(0, 123, 0, 36)
-RaimbowText.Font = Enum.Font.SourceSans
-RaimbowText.Text = "Raimbow Text"
-RaimbowText.TextColor3 = Color3.fromRGB(0, 0, 0)
-RaimbowText.TextSize = 14.000
-
-CustomMusicId.Name = "Custom Music Id"
-CustomMusicId.Parent = MiscBrookhaven
-CustomMusicId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CustomMusicId.BackgroundTransparency = 0.850
-CustomMusicId.Position = UDim2.new(0, 0, 0.364443064, 0)
-CustomMusicId.Size = UDim2.new(0, 129, 0, 37)
-CustomMusicId.Font = Enum.Font.SourceSans
-CustomMusicId.Text = "Custom Music with ID"
-CustomMusicId.TextColor3 = Color3.fromRGB(0, 0, 0)
-CustomMusicId.TextSize = 14.000
-
-Entermusicid.Name = "Enter music id"
-Entermusicid.Parent = MiscBrookhaven
-Entermusicid.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
-Entermusicid.BorderColor3 = Color3.fromRGB(84, 84, 84)
-Entermusicid.BorderSizePixel = 0
-Entermusicid.Position = UDim2.new(0.211999997, 0, 0.363509744, 0)
-Entermusicid.Size = UDim2.new(0, 264, 0, 38)
-Entermusicid.Font = Enum.Font.SourceSans
-Entermusicid.Text = "Enter Music Id Here..............."
-Entermusicid.TextColor3 = Color3.fromRGB(0, 0, 0)
-Entermusicid.TextSize = 14.000
-
-ValidateMusicID.Name = "Validate Music ID"
-ValidateMusicID.Parent = MiscBrookhaven
-ValidateMusicID.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
-ValidateMusicID.BorderColor3 = Color3.fromRGB(148, 148, 148)
-ValidateMusicID.Position = UDim2.new(0.636222899, 0, 0.364285678, 0)
-ValidateMusicID.Size = UDim2.new(0, 101, 0, 36)
-ValidateMusicID.Font = Enum.Font.SourceSans
-ValidateMusicID.Text = "Validate"
-ValidateMusicID.TextColor3 = Color3.fromRGB(0, 0, 0)
-ValidateMusicID.TextSize = 14.000
-
-RaimbowBio.Name = "Raimbow Bio"
-RaimbowBio.Parent = MiscBrookhaven
-RaimbowBio.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
-RaimbowBio.BorderColor3 = Color3.fromRGB(148, 148, 148)
-RaimbowBio.Position = UDim2.new(0.5, 0, 0.466052115, 0)
-RaimbowBio.Size = UDim2.new(0, 172, 0, 36)
-RaimbowBio.Font = Enum.Font.SourceSans
-RaimbowBio.Text = "Raimbow Bio"
-RaimbowBio.TextColor3 = Color3.fromRGB(0, 0, 0)
-RaimbowBio.TextSize = 14.000
-
-Raimbowname.Name = "Raimbowname"
-Raimbowname.Parent = MiscBrookhaven
-Raimbowname.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
-Raimbowname.BorderColor3 = Color3.fromRGB(148, 148, 148)
-Raimbowname.Position = UDim2.new(0.122291028, 0, 0.465437233, 0)
-Raimbowname.Size = UDim2.new(0, 174, 0, 36)
-Raimbowname.Font = Enum.Font.SourceSans
-Raimbowname.Text = "Raimbow Name"
-Raimbowname.TextColor3 = Color3.fromRGB(0, 0, 0)
-Raimbowname.TextSize = 14.000
-
-Roomate.Name = "Raimbow Name"
-Roomate.Parent = MiscBrookhaven
-Roomate.BackgroundColor3 = Color3.fromRGB(148, 148, 148)
-Roomate.BorderColor3 = Color3.fromRGB(148, 148, 148)
-Roomate.Position = UDim2.new(0.122291021, 0, 0.557666898, 0)
-Roomate.Size = UDim2.new(0, 416, 0, 36)
-Roomate.Font = Enum.Font.SourceSans
-Roomate.Text = "Roomate in all house"
-Roomate.TextColor3 = Color3.fromRGB(0, 0, 0)
-Roomate.TextSize = 14.000
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 6
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 7
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 11
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 12
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 13
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 14
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 15
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 16
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").print(player.Name),
-		[3] = 17
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 18
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 19
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 20
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 21
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 22
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 23
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-Roomate.MouseButton1Down:connect(function()
-	local args = {
-		[1] = "GivePermissionLoopToServer",
-		[2] = game:GetService("Players").ouaiouaiouaichakal93,
-		[3] = 24
-	}
-
-	game:GetService("ReplicatedStorage").H2.FD.SS.ED:FindFirstChild("18Playe18rTrigge18rEven18t"):FireServer(unpack(args))
-end)
-
-
-Frame.Parent = MiscBrookhaven
-Frame.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
-Frame.Position = UDim2.new(0, 0, -0.00125265121, 0)
-Frame.Size = UDim2.new(0, 644, 0, 381)
-
-soon.Name = "soon"
-soon.Parent = Frame
-soon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-soon.BackgroundTransparency = 1.000
-soon.Position = UDim2.new(0.149068311, 0, 0.289752781, 0)
-soon.Size = UDim2.new(0, 399, 0, 109)
-soon.Font = Enum.Font.SourceSans
-soon.Text = "SOON"
-soon.TextColor3 = Color3.fromRGB(0, 0, 0)
-soon.TextSize = 100.000
-
-TextLabel_5.Parent = Frame
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.149068311, 0, 0.289752781, 0)
-TextLabel_5.Size = UDim2.new(0, 399, 0, 109)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "SOON"
-TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.TextSize = 100.000
 
 OpenGui.Name = "OpenGui"
-OpenGui.Parent = CheatUnderThisFrame
-OpenGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OpenGui.BackgroundTransparency = 0.850
-OpenGui.Position = UDim2.new(0, 0, 5.92000008, 0)
-OpenGui.Size = UDim2.new(0, 126, 0, 50)
-OpenGui.Font = Enum.Font.GothamBlack
-OpenGui.Text = "Ouvrir "
+OpenGui.Parent = Frame
+OpenGui.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+OpenGui.BorderSizePixel = 0
+OpenGui.Position = UDim2.new(-0.0169772189, 0, 23.0117855, 0)
+OpenGui.Size = UDim2.new(0, 84, 0, 38)
+OpenGui.Font = Enum.Font.SourceSans
+OpenGui.Text = "Open"
 OpenGui.TextColor3 = Color3.fromRGB(0, 0, 0)
-OpenGui.TextSize = 15.000
-OpenGui.MouseButton1Down:connect(function()
+OpenGui.TextSize = 14.000
+OpenGui.MouseButton1Down:Connect(function()
 	Gui.Visible = true
 	OpenGui.Visible = false
-	OutfitButton.Visible = true
-	NoMotorVehiclesCatalog.Visible = false
-	MotorVehiclesCatalog.Visible = false
-	OutfitCaTalog.Visible = false
+	X.Visible = true
 end)
-
-
-TextLabel.Parent = SofianeGuis
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.841455936, 0, 0.00858895667, 0)
-TextLabel.Size = UDim2.new(0, 97, 0, 18)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Sofiane Gui'S"
-TextLabel.TextColor3 = Color3.fromRGB(255,255,255)
-TextLabel.TextSize = 40.000
 
 -- Scripts:
 
-local function CAUW_fake_script() -- Gui.LocalScript 
+local function GAJECE_fake_script() -- ExeHome.LocalScript 
+	local script = Instance.new('LocalScript', ExeHome)
+
+	local frame = script.Parent
+	
+	
+	
+	local player = game.Players.LocalPlayer
+	
+	
+	
+	local userId = player.UserId
+	
+	local thumbType = Enum.ThumbnailType.AvatarBust
+	
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	
+	
+	
+	
+	frame.ImageLabel.Image = content
+	
+	frame["Player Name"].Text = player.Name
+	
+end
+coroutine.wrap(GAJECE_fake_script)()
+local function SJOXLLV_fake_script() -- Gui.LocalScript 
 	local script = Instance.new('LocalScript', Gui)
 
 	local UIS = game:GetService('UserInputService')
@@ -1561,8 +869,7 @@ local function CAUW_fake_script() -- Gui.LocalScript
 		end
 
 	end)
-
 end
-coroutine.wrap(CAUW_fake_script)()
+coroutine.wrap(SJOXLLV_fake_script)()
 
 
