@@ -68,6 +68,7 @@ Gui.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
 Gui.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Gui.Position = UDim2.new(20.188715, 0, 12.8299627, 0)
 Gui.Size = UDim2.new(0, 460, 0, 273)
+Gui.Visible = false
 
 TopBar.Name = "Top Bar"
 TopBar.Parent = Gui
@@ -232,6 +233,7 @@ ExeClothes_2.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
 ExeClothes_2.BorderSizePixel = 0
 ExeClothes_2.Position = UDim2.new(0.169565216, 0, 0.143079266, 0)
 ExeClothes_2.Size = UDim2.new(0, 382, 0, 233)
+ExeClothes_2.Visible = false
 
 Validate.Name = "Validate"
 Validate.Parent = ExeClothes_2
@@ -369,6 +371,7 @@ Outfitcatalog.Active = true
 Outfitcatalog.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
 Outfitcatalog.Position = UDim2.new(0.169565216, 0, 0.146520153, 0)
 Outfitcatalog.Size = UDim2.new(0, 382, 0, 232)
+Outfitcatalog.Visible = false
 
 locks.Name = "locks"
 locks.Parent = Outfitcatalog
