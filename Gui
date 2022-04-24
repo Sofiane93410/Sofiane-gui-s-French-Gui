@@ -1,4 +1,4 @@
-
+---Made By Sofiane
 local ExeMenu = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Gui = Instance.new("Frame")
@@ -100,7 +100,7 @@ ExeHome.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
 ExeHome.BorderSizePixel = 0
 ExeHome.Position = UDim2.new(0.169565216, 0, 0.143079266, 0)
 ExeHome.Size = UDim2.new(0, 382, 0, 233)
-ExeHome.Visible = false
+ExeHome.Visible = true
 
 MadebySofiane5554.Name = "Made by Sofiane#5554"
 MadebySofiane5554.Parent = ExeHome
