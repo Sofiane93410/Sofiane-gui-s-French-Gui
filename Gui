@@ -313,7 +313,7 @@ ValidateButton.MouseButton1Down:Connect(function()
 
 	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Player28sCa28r"):FireServer(unpack(args))
 end)
-Validate.MouseButton1Down:Connect(function()
+ValidateButton.MouseButton1Down:Connect(function()
 	local args = {
 		[1] = "Ho28useMu28sicTe28xt",
 		[2] = MusicId.Text
@@ -881,4 +881,5 @@ local function SJOXLLV_fake_script() -- Gui.LocalScript
 	end)
 end
 coroutine.wrap(SJOXLLV_fake_script)()
+
 
