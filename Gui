@@ -320,7 +320,6 @@ Validate.MouseButton1Down:Connect(function()
 	}
 
 	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Player28sHous28e"):FireServer(unpack(args))
-
 end)
 
 MusicId.Name = "Music Id"
