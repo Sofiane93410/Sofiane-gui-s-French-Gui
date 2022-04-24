@@ -225,7 +225,7 @@ X.MouseButton1Down:Connect(function()
 	OpenGui.Visible = true
 	Gui.Visible = false
 end)
-	
+
 
 ExeClothes_2.Name = "ExeClothes"
 ExeClothes_2.Parent = Gui
@@ -313,7 +313,15 @@ ValidateButton.MouseButton1Down:Connect(function()
 
 	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Player28sCa28r"):FireServer(unpack(args))
 end)
+Validate.MouseButton1Down:Connect(function()
+	local args = {
+		[1] = "Ho28useMu28sicTe28xt",
+		[2] = MusicId.Text
+	}
 
+	game:GetService("ReplicatedStorage").ER.DD.DD.DD:FindFirstChild("28Player28sHous28e"):FireServer(unpack(args))
+
+end)
 
 MusicId.Name = "Music Id"
 MusicId.Parent = ExeMusic_2
@@ -775,29 +783,29 @@ local function GAJECE_fake_script() -- ExeHome.LocalScript
 	local script = Instance.new('LocalScript', ExeHome)
 
 	local frame = script.Parent
-	
-	
-	
+
+
+
 	local player = game.Players.LocalPlayer
-	
-	
-	
+
+
+
 	local userId = player.UserId
-	
+
 	local thumbType = Enum.ThumbnailType.AvatarBust
-	
+
 	local thumbSize = Enum.ThumbnailSize.Size420x420
-	
+
 	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-	
-	
-	
-	
+
+
+
+
+
 	frame.ImageLabel.Image = content
-	
+
 	frame["Player Name"].Text = player.Name
-	
+
 end
 coroutine.wrap(GAJECE_fake_script)()
 local function SJOXLLV_fake_script() -- Gui.LocalScript 
