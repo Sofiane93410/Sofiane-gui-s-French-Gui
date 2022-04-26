@@ -81,7 +81,7 @@ Gui.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
 Gui.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Gui.Position = UDim2.new(20.188715, 0, 12.8299627, 0)
 Gui.Size = UDim2.new(0, 460, 0, 273)
-Gui.Visible = false
+Gui.Visible = true
 
 TopBar.Name = "Top Bar"
 TopBar.Parent = Gui
@@ -1381,4 +1381,4 @@ local function HJEGZJZ_fake_script()
 		Duration = 10; -- how long the notification should in secounds
 	})
 end
-coroutine.wrap(HJEGZJZ_fake_script)()
+coroutine.wrap(ZEIGJH_fake_script)()
