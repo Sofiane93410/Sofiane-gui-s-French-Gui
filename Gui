@@ -1381,4 +1381,4 @@ local function HJEGZJZ_fake_script()
 		Duration = 10; -- how long the notification should in secounds
 	})
 end
-coroutine.wrap(ZEIGJH_fake_script)()
+coroutine.wrap(HJEGZJZ_fake_script)()
