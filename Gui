@@ -63,8 +63,7 @@ local TextButton_3 = Instance.new("TextButton")
 local TextButton_4 = Instance.new("TextButton")
 local infinitejump = Instance.new("TextButton")
 local infinitejump1 = Instance.new("TextButton")
-local Rommateplayer_3 = Instance.new("TextBox")
-local TextButton4 = Instance.new("TextButton")
+local NoClip = Instance.new("TextButton")
 
 --Properties:
 
@@ -76,6 +75,50 @@ Frame.Parent = ExeMenu
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.Size = UDim2.new(0, 21, 0, 23)
+
+NoClip.Name = "NoClip"
+NoClip.Visible = true
+NoClip.Parent = MoreScriptFrame
+NoClip.BackgroundColor3 = Color3.fromRGB(244, 255, 32)
+NoClip.Position = UDim2.new(0.358638734, 0, 0.703862667, 0)
+NoClip.Size = UDim2.new(0, 127, 0, 20)
+NoClip.Font = Enum.Font.SourceSans
+NoClip.Text = "Noclip"
+NoClip.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoClip.TextSize = 14.000
+NoClip.MouseButton1Down:connect(function()
+	local noclipplayer = game:GetService("Players").LocalPlayer
+	local noclipmouse = noclipplayer:GetMouse()
+
+	local donoclip = false
+	local noclip = false
+
+	function b_noclip(key)
+		if (key == "b") then
+			if noclip == false then
+				donoclip = true
+
+				noclip = true
+			elseif noclip == true then
+				donoclip = false
+
+				noclip = false
+			end
+		end
+	end
+
+	noclipmouse.KeyDown:connect(b_noclip)
+
+	game:GetService("Players").LocalPlayer.Character.Head.Touched:connect(function(obj)
+		if obj ~= workspace.Terrain then
+			if donoclip == true then
+				obj.CanCollide = false
+			else
+				obj.CanCollide = true
+			end
+		end
+	end)
+end)
 
 Gui.Name = "Gui"
 Gui.Parent = Frame
@@ -109,115 +152,7 @@ LeftBar.BorderSizePixel = 0
 LeftBar.Position = UDim2.new(0, 0, 0.146520153, 0)
 LeftBar.Size = UDim2.new(0, 78, 0, 233)
 
-TextButton4.Parent = MoreScriptFrame
-TextButton4.BackgroundColor3 = Color3.fromRGB(99, 79, 255)
-TextButton4.Position = UDim2.new(0.358638734, 0, 0.819742501, 0)
-TextButton4.Size = UDim2.new(0, 127, 0, 20)
-TextButton4.Font = Enum.Font.SourceSans
-TextButton4.Visible = true
-TextButton4.Text = "Fly"
-TextButton4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton4.TextSize = 14.000
-TextButton4.MouseButton1Down:Connect(function()
-		repeat wait() 
-		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
-		local mouse = game.Players.LocalPlayer:GetMouse() 
-		repeat wait() until mouse
-		local plr = game.Players.LocalPlayer 
-		local torso = plr.Character.Head 
-		local flying = false
-		local deb = true 
-		local ctrl = {f = 0, b = 0, l = 0, r = 0} 
-		local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-		local maxspeed = 400 
-		local speed = tonumber(Rommateplayer_3.text) 
 
-		function Fly() 
-			local bg = Instance.new("BodyGyro", torso) 
-			bg.P = 9e4 
-			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
-			bg.cframe = torso.CFrame 
-			local bv = Instance.new("BodyVelocity", torso) 
-			bv.velocity = Vector3.new(0,0.1,0) 
-			bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
-			repeat wait() 
-				plr.Character.Humanoid.PlatformStand = true 
-				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
-					speed = speed+.50+(speed/maxspeed) 
-					if speed > maxspeed then 
-						speed = maxspeed 
-					end 
-				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
-					speed = speed-1 
-					if speed < 0 then 
-						speed = 0 
-					end 
-				end 
-				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
-					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
-					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
-				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
-					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
-				else 
-					bv.velocity = Vector3.new(0,0.1,0) 
-				end 
-				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
-			until not flying 
-			ctrl = {f = 0, b = 0, l = 0, r = 0} 
-			lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-			speed = 0 
-			bg:Destroy() 
-			bv:Destroy() 
-			plr.Character.Humanoid.PlatformStand = false 
-		end 
-		mouse.KeyDown:connect(function(key) 
-			if key:lower() == "e" then 
-				if flying then flying = false 
-				else 
-					flying = true 
-					Fly() 
-				end 
-			elseif key:lower() == "w" then 
-				ctrl.f =  tonumber(Rommateplayer_3.text) 
-			elseif key:lower() == "s" then 
-				ctrl.b = tonumber(Rommateplayer_3.text) 
-			elseif key:lower() == "a" then 
-				ctrl.l = tonumber(Rommateplayer_3.text) 
-			elseif key:lower() == "d" then 
-				ctrl.r = tonumber(Rommateplayer_3.text) 
-			end 
-		end) 
-		mouse.KeyUp:connect(function(key) 
-			if key:lower() == "w" then 
-				ctrl.f = 0 
-			elseif key:lower() == "s" then 
-				ctrl.b = 0 
-			elseif key:lower() == "a" then 
-				ctrl.l = 0 
-			elseif key:lower() == "d" then 
-				ctrl.r = 0 
-			end 
-		end)
-		Fly()
-end)
-TextButton4.MouseButton1Down:Connect(function()
-	wait(1.2)
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "Exe..."; -- the title (ofc)
-		Text = "Press E to Fly and Unfly"; -- what the text says (ofc)
-		Duration = 5; -- how long the notification should in secounds
-	})
-end)
-
-Rommateplayer_3.Name = "Rommateplayer"
-Rommateplayer_3.Parent = MoreScriptFrame
-Rommateplayer_3.BackgroundColor3 = Color3.fromRGB(0, 255, 247)
-Rommateplayer_3.Position = UDim2.new(0, 0, 0.805559158, 0)
-Rommateplayer_3.Size = UDim2.new(0, 127, 0, 27)
-Rommateplayer_3.Font = Enum.Font.SourceSans
-Rommateplayer_3.Text = "SpeedFly"
-Rommateplayer_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-Rommateplayer_3.TextSize = 14.000
 
 TextButton_3.Parent = MoreScriptFrame
 TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -464,6 +399,7 @@ ExeHome_2.MouseButton1Down:Connect(function()
 	ExeMusic_2.Visible = false
 	ExeClothes_2.Visible = false
 	Outfitcatalog.Visible = false
+	MoreScriptFrame.Visible = false
 end)
 
 X.Name = "X"
@@ -1041,6 +977,7 @@ MoreScriptFrame.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
 MoreScriptFrame.BorderSizePixel = 0
 MoreScriptFrame.Position = UDim2.new(0.1673913, 0, 0.143079266, 0)
 MoreScriptFrame.Size = UDim2.new(0, 382, 0, 233)
+MoreScriptFrame.Visible = false
 
 AdminCommand.Name = "Admin Command"
 AdminCommand.Parent = MoreScriptFrame
@@ -1404,6 +1341,7 @@ OpenGui.MouseButton1Down:Connect(function()
 	Gui.Visible = true
 	OpenGui.Visible = false
 	X.Visible = true
+	ExeHome.Visible = true
 end)
 
 -- Scripts:
