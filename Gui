@@ -445,7 +445,7 @@ Validate.MouseButton1Down:Connect(function()
 		[2] = tonumber(ClothesId.Text)
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 ClothesId.Name = "Clothes Id"
@@ -495,7 +495,7 @@ ValidateButton.MouseButton1Down:Connect(function()
 		[2] = MusicId.Text
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
 
 end)
 ValidateButton.MouseButton1Down:Connect(function()
@@ -504,7 +504,7 @@ ValidateButton.MouseButton1Down:Connect(function()
 		[2] = MusicId.Text
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Player28sCa28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Player28sCa28r"):FireServer(unpack(args))
 end)
 ValidateButton.MouseButton1Down:Connect(function()
 	local args = {
@@ -512,7 +512,7 @@ ValidateButton.MouseButton1Down:Connect(function()
 		[2] = MusicId.Text
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Player28sHous28e"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Player28sHous28e"):FireServer(unpack(args))
 end)
 
 MusicId.Name = "Music Id"
@@ -589,7 +589,7 @@ locks.MouseButton1Down:connect(function()
 		[2] = 6983883787
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 BigSmile.Name = "Big Smile"
@@ -607,7 +607,7 @@ BigSmile.MouseButton1Down:Connect(function()
 		[2] = 6093227225
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 
 end)
 
@@ -638,7 +638,7 @@ Casquettebleu.MouseButton1Down:connect(function()
 		[2] = 6810609456
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 CloseNoMotorGui.Name = "CloseNoMotorGui"
@@ -668,7 +668,7 @@ Durag.MouseButton1Down:connect(function()
 		[2] = 7028762683
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 waves.Name = "waves"
@@ -687,7 +687,7 @@ waves.MouseButton1Down:connect(function()
 		[2] = 5153072488
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 vestenikesacoche.Name = "veste nike + sacoche"
@@ -706,7 +706,7 @@ vestenikesacoche.MouseButton1Down:connect(function()
 		[2] = 7404331902
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 pantalonjordannoir.Name = "pantalon jordan noir"
@@ -725,7 +725,7 @@ pantalonjordannoir.MouseButton1Down:connect(function()
 		[2] = 7037524219
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 tnnike.Name = "tn + nike"
@@ -744,7 +744,7 @@ tnnike.MouseButton1Down:connect(function()
 		[2] = 9081182159
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 maillotdebasket.Name = "maillot de basket"
@@ -763,7 +763,7 @@ maillotdebasket.MouseButton1Down:connect(function()
 		[2] = 6792183911
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 
@@ -782,7 +782,7 @@ SofianeSmile.MouseButton1Down:connect(function()
 		[2] = 6093231998
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 bandanaheadband.Name = "bandana + headband"
@@ -801,7 +801,7 @@ bandanaheadband.MouseButton1Down:connect(function()
 		[2] = 8918779343
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 
@@ -820,7 +820,7 @@ Blackmessyhair.MouseButton1Down:connect(function()
 		[2] = 7183785281
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 basnikebleu.Name = "bas nike bleu"
@@ -839,7 +839,7 @@ basnikebleu.MouseButton1Down:connect(function()
 		[2] = 8656182616
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 casqeuttenwaralenver.Name = "casqeutte nwar a l'enver"
@@ -857,7 +857,7 @@ casqeuttenwaralenver.MouseButton1Down:Connect(function()
 		[2] = 6774189421
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 casquettegucci.Name = "casquette gucci"
@@ -875,7 +875,7 @@ casquettegucci.MouseButton1Down:Connect(function()
 		[2] = 5314363790
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 casquetterose.Name = "casquette rose"
@@ -894,7 +894,7 @@ casquetterose.MouseButton1Down:connect(function()
 		[2] = 7128720860
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 dorplatine.Name = "dor & platine"
@@ -912,7 +912,7 @@ dorplatine.MouseButton1Down:Connect(function()
 		[2] = 5806385513
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 Juventusronaldo.Name = "Juventus ronaldo"
@@ -931,7 +931,7 @@ Juventusronaldo.MouseButton1Down:connect(function()
 		[2] = 4894026758
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 hautnikebleu.Name = "haut nike bleu"
@@ -950,7 +950,7 @@ hautnikebleu.MouseButton1Down:connect(function()
 		[2] = 8656178062
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Updat28eAvata28r"):FireServer(unpack(args))
 end)
 
 ExeScript.Name = "Exe Script"
@@ -1022,7 +1022,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 2
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1031,7 +1031,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 1
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1040,7 +1040,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 3
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1049,7 +1049,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 4
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1058,7 +1058,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 5
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1067,7 +1067,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 6
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1076,7 +1076,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 7
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1085,7 +1085,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 8
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1094,7 +1094,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 9
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1103,7 +1103,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 10
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1112,7 +1112,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 11
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1121,7 +1121,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 12
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1130,7 +1130,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 13
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1139,7 +1139,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 14
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1148,7 +1148,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 15
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1157,7 +1157,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 16
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1166,7 +1166,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 17
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1175,7 +1175,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 18
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1184,7 +1184,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 19
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1193,7 +1193,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 20
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1202,7 +1202,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 21
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1211,7 +1211,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 22
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1220,7 +1220,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 23
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1229,7 +1229,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 24
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1238,7 +1238,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 30
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1247,7 +1247,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 31
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 Roomateinallhouse.MouseButton1Down:Connect(function()
 	local args = {
@@ -1256,7 +1256,7 @@ Roomateinallhouse.MouseButton1Down:Connect(function()
 		[3] = 32
 	}
 
-	game:GetService("ReplicatedStorage").ER1.DD.DD.DD:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
+	game:GetService("ReplicatedStorage").P8.RR.RR.RR:FindFirstChild("28Playe28rTrigge28rEven28t"):FireServer(unpack(args))
 end)
 
 Rommateplayer.Name = "Rommateplayer"
